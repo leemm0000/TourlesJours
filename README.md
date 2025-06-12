@@ -76,16 +76,18 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 ## 📝 페이지 구성
 <br>
 
-Header
-Image
-페이지의 상단에 위치한 영역으로, 로고, 내비게이션 메뉴, 검색 아이콘 등이 포함되어 있습니다.
-사용자가 사이트를 탐색할 때 필요한 주요 링크를 제공합니다.
-스크롤할때 header 색상이 불투명하게 변겅되며 마우스롤 호버하면 색이 원상태로 돌아옵니다.
+### Header  
+![Image](https://github.com/user-attachments/assets/162730e7-27d4-4d00-9b04-66f7f880003a)  
+페이지의 상단에 위치한 영역으로, 로고, 내비게이션 메뉴, 검색 아이콘 등이 포함되어 있습니다.  
+사용자가 사이트를 탐색할 때 필요한 주요 링크를 제공합니다.  
+스크롤할때 header 색상이 불투명하게 변겅되며 마우스롤 호버하면 색이 원상태로 돌아옵니다.  
 
-헤더 반응형
-Image Image
-가로 너비가 768px 미만일 때는 헤더 안의 내비게이션 메뉴가 사라지고, 햄버거 아이콘이 생성됩니다.
-햄버거 아이콘을 클릭하면 측면 내비게이션 메뉴가 나옵니다.
+### 헤더 반응형  
+![Image](https://github.com/user-attachments/assets/19d41c4c-0abb-4c2f-bf7c-500f90d29c56)
+![Image](https://github.com/user-attachments/assets/c07ce1d8-a024-421c-be8a-3a43d36cfb39)  
+가로 너비가 768px 미만일 때는 헤더 안의 내비게이션 메뉴가 사라지고, 햄버거 아이콘이 생성됩니다.  
+햄버거 아이콘을 클릭하면 측면 내비게이션 메뉴가 나옵니다.  
+
 <br><br><br><br>
 
 ### Footer
@@ -157,33 +159,17 @@ Image Image
 
 <br><br><br><br>
 
-### section3 일반 메뉴 소개
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/ranking.gif" width="800"/>
-</div><br>
-현재 진행 중인 공연의 장르 별 인기 순위를 보여주는 영역입니다.
-각 장르의 탭을 클릭하면 순위에 맞게 공연 포스터가 표시됩니다.
-<br><br><br><br>
+### section3 일반 메뉴 소개  
+![Image](https://github.com/user-attachments/assets/8726ceb7-54d6-464c-9239-9ce267b8c1a1)  
+현재 판매 중인 뚜레쥬르의 메뉴를 보여주는 영역입니다.  
+각 카테고리 탭을 클릭하면 그에 맞는 메뉴들이 나오며 오르쪽에 있는 메뉴 버튼을 누르면 그 정보가 왼쪽에 나옵니다.  
 
-### section4 창업 안내
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/today.jpg" width="800"/>
-</div><br>
-오늘의 추천 작품 섹션은 오른쪽 제목 리스트에 마우스를 호버하거나 3초마다 자동으로 각 작품 포스터의 메인 컬러에 따라 배경 색상과 내용이 변경되도록 구성되었습니다. 
-이러한 시각적 효과는 사용자의 흥미를 유도하며 시각적 즐거움을 제공합니다.<br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/today.gif" width="800"/>
-</div>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/today2.jpg" width="300"/>
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/today3.jpg" width="150"/>
-</div>
-<br><br><br>
-반응형 디자인에서는 화면 크기에 따라 레이아웃이 변경되며, 작은 화면에서는 제목 리스트와 포스터가 세로로 배치되어 가독성과 사용성을 높였습니다.
-<br><br><br><br>
-
+### section4 창업 안내  
+![Image](https://github.com/user-attachments/assets/d3ddf45a-d9d1-4d6b-be8d-4de895c9e242)  
+각 영역을 마우스 클릭하면 클릭한 영역이 커지고 나머지들은 줄어들도록 구현하였습니다.  
+이러한 시각적 효과는 사용자의 흥미를 유도하며 시각적 즐거움을 제공합니다.  
+![Image](https://github.com/user-attachments/assets/d0846fb2-6cb3-4591-991f-07cc22b2985c)  
+반응형에서는 가로 배치가 아닌 세로로 배치되어 가독성과 사용성을 높였습니다.  
 ### section5 sns 
 <br><br>
 ![sns 섹션](https://github.com/user-attachments/assets/11617c00-27dc-4102-9e50-04b00d98665e)
@@ -250,48 +236,35 @@ SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔�
 애니메이션 효과를 적용해 사용자에게 지루하지 않고 생동감 있는 경험을 제공합니다.
 <br><br><br><br>
 
-### 서브페이지 : 창업 안내
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%8B%E1%85%A8%E1%84%86%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%E1%84%8E%E1%85%AE%E1%86%AF%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB.gif" width="800"/></div><br>
-공연에 출연하는 배우들의 이름과 역할 정보를 확인할 수 있는 섹션입니다.
- 메인 페이지의 티켓 오픈 섹션에 있는 16개의 공연 각각에 대해 출연진이 다르게 보입니다. 슬라이드 형태로 구현하였습니다.
-<br><br><br><br>
 
-### 서브페이지 : 매장 찾기
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%8B%E1%85%A8%E1%84%86%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%E1%84%90%E1%85%A2%E1%86%B8.gif" width="800"/></div><br>
-항목 별로 공연의 다양한 정보를 제공하는 섹션입니다.
-각 탭을 클릭하면 해당 탭에 맞는 정보가 표시됩니다.
-<br><br><br><br>
+### 서브페이지 : 메뉴 안내  
+**뚜레쥬르 메뉴 안내 페이지**  
+![Image](https://github.com/user-attachments/assets/eedf533d-f4ae-4882-a702-713f3a7a836c)  
+뚜레쥬르 추천 메뉴 섹션입니다.  
+swiper를 사용해서 제작하였으며 메뉴를 클릭하면 중앙에 해당 메뉴에 관한 정보가 표시됩니다.  
+![Image](https://github.com/user-attachments/assets/d65a7604-87a1-4598-a7bc-55c2f3cce07b)  
+뚜레쥬르 일반 메뉴 섹션입니다.  
+메뉴를 클릭하면 그 위에 메뉴에 관한 정보가 표시됩니다.  
+기본적으로 4개씩 2줄로 메뉴가 표시되며 더보기 버튼을 클릭하면 4 x 2형식으로 메뉴가 나오고 없으면 버튼은 사라집니다.  
+![Image](https://github.com/user-attachments/assets/0726d7b3-7ede-4568-a668-2b7b5ef130b6)  
+메뉴 카테고리를 클릭하면 하위 카테고리가 나오고 하위 카테고리를 클릭하지 않으면 상위 카테고리에 맞는 메뉴들이 나옵니다.  
+![Image](https://github.com/user-attachments/assets/5d0cfc33-1415-4bb6-b55a-373b37cf29a6)  
+![Image](https://github.com/user-attachments/assets/710d1c80-dd34-4955-9dcc-d451c71cccd2)  
+- **검색 성공시** : 찾은 메뉴들을 보여줍니다.  
+- **실패시** : 메뉴를 찾을 수 없다는 이미지와 문구를 띄워줍니다.  
 
-### 서브페이지 : 메뉴 소개
-<br><br><br>
-<b>공연장 별 대표 공연과 위치</b>
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A7%E1%86%AF.png" width="800"/></div><br>
-항목 별로 공연의 다양한 정보를 제공하는 섹션입니다.
-각 탭을 클릭하면 해당 탭에 맞는 정보가 표시됩니다.
-<br><br><br><br>
+### 서브페이지 : 매장 찾기  
+**뚜레쥬르 매장 찾기 페이지**  
+![Image](https://github.com/user-attachments/assets/972d2ca0-20df-455a-a5fb-8834b4ab0772)  
+왼쪽에는 뚜레쥬르 매장에 관한 정보 리스트가 나오고 오르쪽에는 지도 API를 사용해서 위치와 정보를 보여줍니다.  
+도/시 시/군/구 카테고리를 선택하면 그에 맞는 리스트가 나옵니다.  
+![Image](https://github.com/user-attachments/assets/11bf8292-6c0d-4f94-bc67-26308334ad22)  
+메인 페이지에서 검색하고 매장찾기 버튼을 누르면 서브페이지와 연결되어 검색한 값을 표시합니다.  
 
- 
+## ⚙️ 개발 환경  
+- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>  
+- 사용된 기술 :  
+  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/scss-1572B6?style=flat-square&logo=scss&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">  <img src="https://img.shields.io/badge/Aos-1572B6?style=flat-square&logo=Aos&logoColor=white">
 
-
-
-
-## ⚙️ 개발 환경
-
-- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
-- 사용된 기술 :
-  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
-<br/><br/>
-
-
-
-
-## 🔗 링크
+## 🔗 링크  
 - [리뉴얼 디자인 시안 피그마 주소](https://www.figma.com/design/keujfuZxrwj3gFrX569d1F/E%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=352-2299&m=dev)
-=======
-
