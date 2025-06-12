@@ -194,7 +194,8 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 ![sns 섹션](https://github.com/user-attachments/assets/11617c00-27dc-4102-9e50-04b00d98665e)
 
 <br>
-![sns 섹션 모바일](https://github.com/user-attachments/assets/45074afa-16ae-498e-a4c8-b7c48fa4a6ba)
+
+![sns 섹션 모바일](https://github.com/user-attachments/assets/cadef054-a57b-48e2-9af2-60076a890928)
 
 
 SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔하게 배치하였으며,
@@ -258,9 +259,10 @@ SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔�
 ### 서브페이지 :  브랜드 소개/연혁 
 <br><br>
 
+![브랜드1](https://github.com/user-attachments/assets/c3b48529-cf09-4b80-8b98-36dfc03e5ce2)
 
 <br>
-브랜드 페이지에서는 브랜드의 비전과 가치, 그리고 **걸어온 연사(연혁)**를 확인할 수 있습니다.
+브랜드 페이지에서는 브랜드의 비전과 가치, 그리고 걸어온 연혁를 확인할 수 있습니다.
 탭 기능을 활용해 두 개의 주요 콘텐츠 영역으로 구분하였으며,
 애니메이션 효과를 적용해 사용자에게 지루하지 않고 생동감 있는 경험을 제공합니다.
 <br><br><br><br>
