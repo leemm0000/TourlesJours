@@ -107,17 +107,11 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
  
    
 ###  Mini Menu Bar
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer.jpg" width="800"/>
-</div>
-<br><hr>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer2.jpg" width="300"/>
- <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer3.jpg" width="150"/>
-</div>
+![미니메뉴바](https://github.com/user-attachments/assets/bf48c913-eccb-4b21-b019-0f9b8784381f)
 
 프로젝트의 모든 페이지 상단에는 **‘미니 메뉴바(Mini Menu Bar)’**가 고정되어 있어,
 가맹문의, 오늘의 빵, 매장찾기, 고객센터 등 주요 서브페이지로 빠르게 이동할 수 있도록 구성되어 있습니다.
+![미니메뉴바 모바일](https://github.com/user-attachments/assets/60a6b7e8-5522-4d23-ba2f-65632d901f1c)
 
 또한, 반응형 환경에서는 스크롤 길이에 따라 미니 메뉴가 숨겨지고 대신 상단으로 이동할 수 있는 'Top 버튼'이 표시되어,
 모바일이나 좁은 화면에서도 사용자 편의성과 가시성을 높였습니다.
@@ -199,10 +193,14 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 ![sns 섹션](https://github.com/user-attachments/assets/11617c00-27dc-4102-9e50-04b00d98665e)
 
 <br>
+![sns 섹션 모바일](https://github.com/user-attachments/assets/45074afa-16ae-498e-a4c8-b7c48fa4a6ba)
+
+
 SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔하게 배치하였으며,
 각 이미지에 마우스 호버 시 확대되는 효과를 적용해 직관적인 시각적 피드백을 제공합니다.
 <br><br><br>
-![sns 섹션 모바일](https://github.com/user-attachments/assets/8723eefc-0056-4e82-aeeb-699fe137b527)
+
+
 반응형 디자인에서는 화면 크기에 따라 2x2 배열로 변경되어 스크롤 길이가 과도하게 길어지는 것을 방지하고,
 사용자가 추가 콘텐츠를 보고 싶을 때는 ‘더보기’ 버튼을 클릭하여 더 많은 내용을 확인할 수 있도록 구성하였습니다.
 
@@ -258,9 +256,12 @@ SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔�
 
 ### 서브페이지 :  브랜드 소개/연혁 
 <br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6.png" width="800"/></div><br>
-이 섹션에서는 공연에 대한 전체적인 정보를 확인할 수 있습니다. 메인 페이지의 티켓 오픈 섹션에 있는 16개의 공연에 각각에 대해 장소, 공연 기간, 공연 시간, 그리고 관심 수가 다르게 제공됩니다. 이를 통해 사용자는 각 공연에 대한 구체적인 정보를 손쉽게 확인할 수 있습니다.
+
+
+<br>
+브랜드 페이지에서는 브랜드의 비전과 가치, 그리고 **걸어온 연사(연혁)**를 확인할 수 있습니다.
+탭 기능을 활용해 두 개의 주요 콘텐츠 영역으로 구분하였으며,
+애니메이션 효과를 적용해 사용자에게 지루하지 않고 생동감 있는 경험을 제공합니다.
 <br><br><br><br>
 
 ### 서브페이지 : 창업 안내
