@@ -295,5 +295,4 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 ## 🔗 링크
 - [리뉴얼 디자인 시안 피그마 주소](https://www.figma.com/design/keujfuZxrwj3gFrX569d1F/E%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=352-2299&m=dev)
 =======
-# renewal_interpark_ticket
->>>>>>> e49a78842c501b95afb44cf54389e4d3a7d9d87a
+
