@@ -225,30 +225,17 @@ SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔�
 
 <br><br><br><br>
 
-### section8 배너
-<br><br>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner.png" width="400"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner2.png" width="300"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner3.png" width="300"/>
-</div>
-<br><br><br><br><br><br>
 
-
-### section8 배너
-<br><br>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner.png" width="400"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner2.png" width="300"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner3.png" width="300"/>
-</div>
 
 ## 서브페이지 : 날씨에 따른 메뉴 추천, 브랜드 소개/연혁, 창업 안내, 매장 찾기 ,메뉴소개 
 <br><br>
 ### 서브페이지 : 날씨에 따른 메뉴 추천 
 <br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%8B%E1%85%A8%E1%84%86%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%E1%84%91%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%A5%E1%86%B8.gif" width="800"/></div><br>
+
+![날씨](https://github.com/user-attachments/assets/f64951dd-6124-4cb3-9b6b-fd3deb227812)
+![날씨2](https://github.com/user-attachments/assets/e0a47d24-cc14-45ec-9d34-ed5501558f07)
+
+<br>
 해당 페이지는 미니 메뉴의 '오늘의 빵' 항목을 클릭했을 때 진입하는 서브페이지입니다.
 페이지 상단에는 **오늘의 날씨 정보(기온, 날씨 상태, 최고/최저 기온, 습도, 풍속)**가 표시되며,
 해당 날씨에 어울리는 추천 제품군을 슬라이드 형태로 제공하여 사용자에게 상황에 맞는 메뉴를 제안합니다.
@@ -260,6 +247,7 @@ SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔�
 <br><br>
 
 ![브랜드1](https://github.com/user-attachments/assets/c3b48529-cf09-4b80-8b98-36dfc03e5ce2)
+![브랜드2](https://github.com/user-attachments/assets/aa0978b5-1bb9-42ca-9954-98537907eb36)
 
 <br>
 브랜드 페이지에서는 브랜드의 비전과 가치, 그리고 걸어온 연혁를 확인할 수 있습니다.
