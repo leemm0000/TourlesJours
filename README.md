@@ -106,7 +106,23 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 반응형 환경에서는 하단 중앙에 고정됩니다.
  
    
+###  Mini Menu Bar
+<div align="center">
+  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer.jpg" width="800"/>
+</div>
+<br><hr>
+<div display="flex" align="center">
+  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer2.jpg" width="300"/>
+ <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer3.jpg" width="150"/>
+</div>
 
+프로젝트의 모든 페이지 상단에는 **‘미니 메뉴바(Mini Menu Bar)’**가 고정되어 있어,
+가맹문의, 오늘의 빵, 매장찾기, 고객센터 등 주요 서브페이지로 빠르게 이동할 수 있도록 구성되어 있습니다.
+
+또한, 반응형 환경에서는 스크롤 길이에 따라 미니 메뉴가 숨겨지고 대신 상단으로 이동할 수 있는 'Top 버튼'이 표시되어,
+모바일이나 좁은 화면에서도 사용자 편의성과 가시성을 높였습니다.
+ 
+ 
 <br><br><br><br><br><br>
 ## 메인 페이지 
 <br><br>
@@ -140,15 +156,17 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 <div align="center">
   <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%90%E1%85%B5%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%E1%86%AB.png" width="800"/>
 </div><br>
-인터파크 티켓에서 오픈 예정 또는 현재 오픈 중인 공연들을 소개하는 영역입니다.
-사용자는 이 영역을 통해 현재 예매 가능한 공연 정보를 직관적으로 확인할 수 있으며, 좌우 버튼을 사용해 슬라이드를 넘길 수 있습니다. 
-각 공연을 클릭하면 [서브페이지2(예매하기)]로 이동됩니다.
+해당 영역은 뚜레쥬르의 새로운 메뉴를 직관적으로 소개하는 섹션으로, 사용자는 슬라이드를 통해 구매 가능한 제품들을 손쉽게 확인할 수 있습니다.
+좌우 내비게이션 버튼을 사용해 슬라이드를 넘길 수 있으며, 현재 슬라이드에만 제품 설명이 노출되도록 디자인하여 정보 전달의 명확성과 집중도를 높였습니다.
+또한 하단의 버튼을 클릭하면 **서브 페이지(제품 소개)**로 이동하여 보다 자세한 정보를 확인할 수 있도록 연결되어 있습니다.
+<br> 
 <br><br><br>
-반응형 디자인에서는 화면 크기에 따라 슬라이드의 개수와 배치가 조정되어 다양한 디바이스 환경에서도 최적화된 사용성을 제공합니다.
 <div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/ticketopen2.jpg" width="300"/>
+  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/ticketopen2.jpg" width="300"/> //이미지 추가 수정 
  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/ticketopen3.jpg" width="200"/>
 </div>
+반응형 디자인 에서는 화면크기에 따라 요소들이 재배치 되고 슬라이드의 개수와 배치가 조정 되어 다양한 환경에서도 최적화된 사용성을 제공합니다,
+
 <br><br><br><br>
 
 ### section3 일반 메뉴 소개
@@ -204,25 +222,36 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 </div>
 <br><br><br><br><br><br>
 
-## 서브페이지 : 날씨에 따른 메뉴 추천, 브랜드 소개/연혁, 창업 안내, 매장 찾기
+
+### section8 배너
 <br><br>
-### 예매하기 팝업
+<div display="flex" align="center">
+  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner.png" width="400"/>
+<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner2.png" width="300"/>
+<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/banner3.png" width="300"/>
+</div>
+
+## 서브페이지 : 날씨에 따른 메뉴 추천, 브랜드 소개/연혁, 창업 안내, 매장 찾기 ,메뉴소개 
+<br><br>
+### 서브페이지 : 날씨에 따른 메뉴 추천 
 <br><br>
 <div align="center">
   <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%8B%E1%85%A8%E1%84%86%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%E1%84%91%E1%85%A1%E1%86%B8%E1%84%8B%E1%85%A5%E1%86%B8.gif" width="800"/></div><br>
-예매하기 페이지에 진입하면 가장 먼저 표시되는 팝업창으로, 
-사용자가 공연 예매 및 관람에 필요한 필수 정보를 확인할 수 있습니다.
-
+해당 페이지는 미니 메뉴의 '오늘의 빵' 항목을 클릭했을 때 진입하는 서브페이지입니다.
+페이지 상단에는 **오늘의 날씨 정보(기온, 날씨 상태, 최고/최저 기온, 습도, 풍속)**가 표시되며,
+해당 날씨에 어울리는 추천 제품군을 슬라이드 형태로 제공하여 사용자에게 상황에 맞는 메뉴를 제안합니다.
+하단의 버튼을 클릭하면 서브페이지 - 메뉴 소개 영역으로 이동할 수 있도록 구성되어 있습니다.
+ 
 <br><br><br><br>
 
-### 공연 상세정보
+### 서브페이지 :  브랜드 소개/연혁 
 <br><br>
 <div align="center">
   <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6.png" width="800"/></div><br>
 이 섹션에서는 공연에 대한 전체적인 정보를 확인할 수 있습니다. 메인 페이지의 티켓 오픈 섹션에 있는 16개의 공연에 각각에 대해 장소, 공연 기간, 공연 시간, 그리고 관심 수가 다르게 제공됩니다. 이를 통해 사용자는 각 공연에 대한 구체적인 정보를 손쉽게 확인할 수 있습니다.
 <br><br><br><br>
 
-### 출연진
+### 서브페이지 : 창업 안내
 <br><br>
 <div align="center">
   <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%8B%E1%85%A8%E1%84%86%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%E1%84%8E%E1%85%AE%E1%86%AF%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%B5%E1%86%AB.gif" width="800"/></div><br>
@@ -230,7 +259,7 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
  메인 페이지의 티켓 오픈 섹션에 있는 16개의 공연 각각에 대해 출연진이 다르게 보입니다. 슬라이드 형태로 구현하였습니다.
 <br><br><br><br>
 
-### 탭메뉴
+### 서브페이지 : 매장 찾기
 <br><br>
 <div align="center">
   <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%8B%E1%85%A8%E1%84%86%E1%85%A2%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%E1%84%90%E1%85%A2%E1%86%B8.gif" width="800"/></div><br>
@@ -238,7 +267,7 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 각 탭을 클릭하면 해당 탭에 맞는 정보가 표시됩니다.
 <br><br><br><br>
 
-### 서브페이지 : 공연장
+### 서브페이지 : 메뉴 소개
 <br><br><br>
 <b>공연장 별 대표 공연과 위치</b>
 <br><br>
@@ -248,111 +277,7 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 각 탭을 클릭하면 해당 탭에 맞는 정보가 표시됩니다.
 <br><br><br><br>
 
-
-### 공연장 대표 공연
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%83%E1%85%A2%E1%84%91%E1%85%AD%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB.png" width="800"/></div><br>
-공연장 페이지의 대표 공연을 확인할 수 있는 섹션입니다. 슬라이드 형태로 구현하였습니다.
-<br><br><br><br>
-
-### BEST기획
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%87%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%80%E1%85%B5%E1%84%92%E1%85%AC%E1%86%A8.png" width="800"/></div><br>
-공연장 별로 진행되고 있는 이벤트/기획을 확인할 수 있는 섹션입니다.  오른쪽 공연 제목 리스트에 마우스를 호버 시 또는 3초마다 자동으로 이벤트/기획 배너가 변경됩니다.
-<br><br><br><br>
-
-### 공연 둘러보기
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%AE%E1%86%AF%E1%84%85%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5.png" width="800"/></div><br>
-현재 열리고 있는 공연들을 한 눈에 둘러볼 수 있는 섹션입니다.  2개의 슬라이드가 자동으로 흘러가는 형태로 구현하였습니다.
-<br><br><br><br>
-
-### 주요 기능
-<br><br><br>
-**로그인 - 간편로그인**
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/loginbefore.gif" width="400"/></div><br>
-- 입력 필드에 아이디와 비밀번호 입력 후 로그인<br>
-
-- **로그인 성공 시** : “로그인에 성공하셨습니다.” 라는 알림과 함께 회원 정보를 화면에 표시합니다.<br>
-- **잘못된 값을 입력한 경우** : 해당 입력값이 올바르지 않음을 알려주는 메시지가 출력됩니다.<br>
-- **입력 필드에 공백이 있는 경우** : “빈 칸이 있습니다.” 라는 알림을 표시합니다.<br>
-<br><br><br>
-
-**로그인 - 인터파크티켓 앱**
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/qrlogin.png" width="300"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/qrlogin2.png" width="300"/>
-</div><br>
-
-- **인터파크 앱 설치 안내** : 인터파크 앱 탭을 클릭하면 인터파크 티켓 앱 설치를 위한 QR코드가 표시됩니다.
-- **QR코드 유효 기간** : QR코드가 표시된 지 5분이 지나면 “로그인 인증시간이 만료되었습니다. 새로고침 후 다시 시도하세요”라는 안내 문구가 표시됩니다.
-<br><br><br>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/loginbefore.gif" width="300"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/loginafter.png" width="300"/>
-</div><br><br><br>
- - <b>로그인되지 않은 상태</b> : 새 소식 및 오픈 공지를 제공합니다.<br>
-- <b>로그인된 상태</b> : 입력 필드가 사라지고 회원 정보가 화면에 표시됩니다. 새 소식과 오픈 공지가 사용자 맞춤형 콘텐츠(최근 예매 내역, 나의 관심 공연)으로 변경됩니다.<br>      
-- <b>서브페이지와 연결</b> : 최근 예매 내역에는 <b>예매하기 페이지</b>에서 가장 최근에 예매했던 공연 정보가 표시됩니다. (좌석 포함) 클릭하면 예매하기 페이지로 이동합니다.<br>  
-나의 관심 공연에는 <b>예매하기 페이지</b>에서 하트를 눌렀던 공연 리스트가 표시됩니다. 클릭하면 예매하기 페이지로 이동합니다.
-<br><br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/loginmodal.png" width="800"/></div><br>
- 오른쪽 상단 사용자 메뉴에서 로그인을 클릭하면 로그인 모달 창이 뜨며, 로그인 완료 후에는 메뉴가 로그아웃으로 변경됩니다.
-<br><br><br><br>
-
-### 메인 팝업
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/popup.png" width="1000"/></div><br>
-  
-- **새로고침 시** : 정해진 색상 중 하나가 랜덤으로 선택되어 배경 색상이 변경됩니다.<br>
-- **닫기 기능** : 우측의 닫기 버튼을 눌러 팝업을 닫을 수 있습니다.<br>
-- **‘오늘 하루 열지 않기’ 옵션** : 체크 후 닫기를 선택하면 해당 팝업은 다음 날이 되기 전까지 다시 표시되지 않습니다.<br>
-<br><br><br><br>
-
-### 검색창
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A5%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A1%E1%86%BC.png" width="500"/></div><br>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A5%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A1%E1%86%BC2.png" width="300"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%A5%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%A1%E1%86%BC3.png" width="150"/>
-</div><br>
-
-- **검색창 클릭 시** : 검정색 모달 창이 열립니다.<br>
-- **추천 검색어 클릭 , 검색어 입력** : 작성한 키워드와 연관된  포스터 , 제목이 “이런 작품을 찾으시나요?” 영역에 표시됩니다. 클릭 시 예매하기 페이지로 이동합니다.<br>
-<br><br><br><br>
-
-### 예매하기 – 날짜 선택
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/calendar.png" width="300"/></div><br>
-- 달력에 오늘 날짜가 자동으로 표시됩니다.
-- 예매하기 버튼을 누르면 예매하기 팝업 창이 표시됩니다.
-<br><br><br><br>
-
-### 예매하기 – 좌석 선택
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/calendar.png" width="300"/></div><br>
-- 달력에 오늘 날짜가 자동으로 표시됩니다.<br>
-- 예매하기 버튼을 누르면 예매하기 팝업 창이 표시됩니다.<br>
-<br><br><br><br>
-
-### 관심 작품(좋아요)
-<br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%80%E1%85%AA%E1%86%AB%E1%84%89%E1%85%B5%E1%86%B7%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%91%E1%85%AE%E1%86%B7.gif" width="300"/></div><br>
-  
-- **관심 버튼 클릭 시** : 하트 아이콘이 빨간색으로 채워지고, 관심 수가 1 증가합니다.<br>
-- **로그인 상태에서 클릭 시** : 해당 공연이 마이페이지의 “나의 관심 공연” 항목에 자동으로 추가됩니다. <br>
-<br><br>
+ 
 
 
 
@@ -368,7 +293,7 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 
 
 ## 🔗 링크
-- [리뉴얼 디자인 시안 피그마 주소]()
+- [리뉴얼 디자인 시안 피그마 주소](https://www.figma.com/design/keujfuZxrwj3gFrX569d1F/E%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=352-2299&m=dev)
 =======
 # renewal_interpark_ticket
 >>>>>>> e49a78842c501b95afb44cf54389e4d3a7d9d87a
