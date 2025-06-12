@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/main-logo.png" width="170" alt="interparkticket-logo"/>
+  <img src="https://github.com/leemm0000/TourlesJours/mainPage.png" width="200" alt="main"/>
 
 # 뚜레쥬르 리뉴얼
 </div>
