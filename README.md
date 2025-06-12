@@ -153,18 +153,16 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 
 ### section2  신메뉴 소개
 <br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%90%E1%85%B5%E1%84%8F%E1%85%A6%E1%86%BA%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%E1%86%AB.png" width="800"/>
+
+![신메뉴 섹션](https://github.com/user-attachments/assets/05922129-9af7-46a4-9f40-dd3c346ab770)
+
 </div><br>
 해당 영역은 뚜레쥬르의 새로운 메뉴를 직관적으로 소개하는 섹션으로, 사용자는 슬라이드를 통해 구매 가능한 제품들을 손쉽게 확인할 수 있습니다.
 좌우 내비게이션 버튼을 사용해 슬라이드를 넘길 수 있으며, 현재 슬라이드에만 제품 설명이 노출되도록 디자인하여 정보 전달의 명확성과 집중도를 높였습니다.
 또한 하단의 버튼을 클릭하면 **서브 페이지(제품 소개)**로 이동하여 보다 자세한 정보를 확인할 수 있도록 연결되어 있습니다.
 <br> 
 <br><br><br>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/ticketopen2.jpg" width="300"/> //이미지 추가 수정 
- <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/ticketopen3.jpg" width="200"/>
-</div>
+![신메뉴 섹션-모바일](https://github.com/user-attachments/assets/3deb9bb3-63d4-4027-8c8b-0e52ec684656)
 반응형 디자인 에서는 화면크기에 따라 요소들이 재배치 되고 슬라이드의 개수와 배치가 조정 되어 다양한 환경에서도 최적화된 사용성을 제공합니다,
 
 <br><br><br><br>
@@ -194,6 +192,20 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 </div>
 <br><br><br>
 반응형 디자인에서는 화면 크기에 따라 레이아웃이 변경되며, 작은 화면에서는 제목 리스트와 포스터가 세로로 배치되어 가독성과 사용성을 높였습니다.
+<br><br><br><br>
+
+### section5 sns 
+<br><br>
+![sns 섹션](https://github.com/user-attachments/assets/11617c00-27dc-4102-9e50-04b00d98665e)
+
+<br>
+SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔하게 배치하였으며,
+각 이미지에 마우스 호버 시 확대되는 효과를 적용해 직관적인 시각적 피드백을 제공합니다.
+<br><br><br>
+![sns 섹션 모바일](https://github.com/user-attachments/assets/8723eefc-0056-4e82-aeeb-699fe137b527)
+반응형 디자인에서는 화면 크기에 따라 2x2 배열로 변경되어 스크롤 길이가 과도하게 길어지는 것을 방지하고,
+사용자가 추가 콘텐츠를 보고 싶을 때는 ‘더보기’ 버튼을 클릭하여 더 많은 내용을 확인할 수 있도록 구성하였습니다.
+
 <br><br><br><br>
 
 ### section5  매장 찾기
