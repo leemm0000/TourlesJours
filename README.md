@@ -76,20 +76,16 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 ## 📝 페이지 구성
 <br>
 
-### Header
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/header.jpg" width="800"/>
-</div>
-페이지의 상단에 위치한 영역으로, 로고, 내비게이션 메뉴, 검색 아이콘 등이 포함되어 있습니다. 사용자가 사이트를 탐색할 때 필요한 주요 링크를 제공합니다. 
-<br><br><br>
-<b>헤더 반응형</b>
-<div  display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/header2.jpg" width="300"/>
-<img src="https://github.com/yoondg/interparkticket-renewal/blob/main/header3.jpg" width="300"/>
-</div>
-가로 너비가 768px 미만일 때는 헤더 안의 내비게이션 메뉴가 사라지고, 햄버거 아이콘이 생성됩니다.  
-햄버거 아이콘을 클릭하면 측면 내비게이션 메뉴가 나옵니다.
+Header
+Image
+페이지의 상단에 위치한 영역으로, 로고, 내비게이션 메뉴, 검색 아이콘 등이 포함되어 있습니다.
+사용자가 사이트를 탐색할 때 필요한 주요 링크를 제공합니다.
+스크롤할때 header 색상이 불투명하게 변겅되며 마우스롤 호버하면 색이 원상태로 돌아옵니다.
 
+헤더 반응형
+Image Image
+가로 너비가 768px 미만일 때는 헤더 안의 내비게이션 메뉴가 사라지고, 햄버거 아이콘이 생성됩니다.
+햄버거 아이콘을 클릭하면 측면 내비게이션 메뉴가 나옵니다.
 <br><br><br><br>
 
 ### Footer
