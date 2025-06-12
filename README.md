@@ -1,5 +1,5 @@
-<div align="center">
-  <img src="https://github.com/leemm0000/TourlesJours/mainPage.png" width="200" alt="main"/>
+
+![mainPage](https://github.com/user-attachments/assets/4f5e6b81-44d7-49a4-8f3c-50e6d2893407)
 
 # 뚜레쥬르 리뉴얼
 </div>
