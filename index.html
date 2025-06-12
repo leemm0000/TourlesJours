@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 파비콘 -->
+  <link rel="icon" href="images/pavicon.jpg">
+  <title>뚜레쥬르</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- 서치 영역 -->
+    <div class="search-header">
+      <div class="search-wrap">
+        <form action="">
+          <input type="text" placeholder="Search">
+        </form>
+        <button class="close-btn">
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </button>
+      </div>
+    </div>
+    <!-- 메뉴 영역 -->
+    <div class="inner">
+      <div class="container">
+        <!-- nav -->
+        <nav class="nav">
+          <div class="gnb">
+            <!-- 메뉴 로고 기준 왼쪽 -->
+            <div class="gnb-left">
+              <ul class="primary-menu">
+                <li>
+                  <a href="franchise.html">창업 안내</a>
+                </li>
+                <li>
+                  <a href="brand.html">브랜드 스토리</a>
+                </li>
+                <li>
+                  <a href="#none">상품 안내</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="product.html">전체</a>
+                      </li>
+                      <li>
+                        <a href="#none">빵</a>
+                      </li>
+                      <li>
+                        <a href="#none">케이크</a>
+                      </li>
+                      <li>
+                        <a href="#none">델리</a>
+                      </li>
+                      <li>
+                        <a href="#none">디저트/스낵</a>
+                      </li>
+                      <li>
+                        <a href="#none">음료</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#none">이벤트</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#none">진행중인 이벤트</a>
+                      </li>
+                      <li>
+                        <a href="#none">이벤트 당첨자</a>
+                      </li>
+                      <li>
+                        <a href="#none">CJ ONE 멤버쉽</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <a href="index.html" id="logo">
+              <img src="images/brand-logo-white.png" alt="logo-white">
+              <img src="images/brand-logo.png" alt="logo-main-color">
+            </a>
+            <!-- 메뉴 오른쪽 -->
+            <div class="gnb-right">
+              <ul class="primary-menu">
+                <li>
+                  <a href="findStore.html">매장 찾기</a>
+                </li>
+                <li>
+                  <a href="#none">온라인 쇼핑몰</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#none">뚜레쥬르 앱</a>
+                      </li>
+                      <li>
+                        <a href="#none">홈페이지 전용 예약 발송</a>
+                      </li>
+                      <li>
+                        <a href="#none">꽃 케이크 택배배송</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#none">Login</a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="fa-solid fa-magnifying-glass fa-lg reading-glasses"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="moblie-sec-wrap">
+          <button class="hamburger">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </button>
+          <a href="index.html" id="logo">
+            <img src="images/brand-logo-white.png" alt="logo-white">
+            <img src="images/brand-logo.png" alt="logo-main-color">
+          </a>
+          <button class="reading-glasses">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--모바일 메뉴-->
+    <div class="mobile-nav">
+      <div class="mobile-nav-wrap">
+        <div class="top-wrap">
+          <button class="hamburger-close">
+            <i class="fa-solid fa-xmark fa-xl"></i>
+          </button>
+          <a href="#none">Login</a>
+        </div>
+        <ul class="primary-menu">
+          <li>
+            <a href="franchise.html">창업 안내</a>
+          </li>
+          <li>
+            <a href="brand.html">브랜드 스토리</a>
+          </li>
+          <li>
+            <a href="product.html" class="accodion-btn">상품 안내</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="product.html">전체</a>
+                </li>
+                <li>
+                  <a href="#none">빵</a>
+                </li>
+                <li>
+                  <a href="#none">케이크</a>
+                </li>
+                <li>
+                  <a href="#none">델리</a>
+                </li>
+                <li>
+                  <a href="#none">디저트/스낵</a>
+                </li>
+                <li>
+                  <a href="#none">음료</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#none" class="accodion-btn">이벤트</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="#none">진행중인 이벤트</a>
+                </li>
+                <li>
+                  <a href="#none">이벤트 당첨자</a>
+                </li>
+                <li>
+                  <a href="#none">CJ ONE 멤버쉽</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="findStore.html">매장 찾기</a>
+          </li>
+          <li>
+            <a href="#none" class="accodion-btn">온라인 쇼핑몰</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="#none">뚜레쥬르 앱</a>
+                </li>
+                <li>
+                  <a href="#none">홈페이지 전용 예약 발송</a>
+                </li>
+                <li>
+                  <a href="#none">꽃 케이크 택배배송</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="sns_list">
+          <p>Follow Us</p>
+          <div class="sns_wrap">
+            <div>
+              <a href="#none">
+                <img src="images/facebook.png" alt="facebook-icon">
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <img src="images/twitter.png" alt="twitter-icon">
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <img src="images/instargram.png" alt="instargram-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- mainVisual 섹션 -->
+    <section class="mainVisual">
+      <div class="swiper mySwiper09">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/main-visual01l.png" alt="1"></div>
+          <div class="swiper-slide"><img src="images/main-visual02.png" alt="2"></div>
+          <div class="swiper-slide"><img src="images/main-visual03.png" alt="3"></div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination2"></div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </section>
+    <!--section :: new-menu-->
+    <section class="new-menu">
+      <div class="inner">
+        <div class="new-menu-wrap">
+          <ul>
+            <li class="new-menu-left">
+              <div class="cont-title-wrap" data-aos="fade-up" data-aos-duration="2000">
+                <div class="cont-title-info">뚜레쥬르 여름시즌 신메뉴</div>
+                <div class="cont-title"><span class="title-yellow"> 달콤한 마음</span>을 전하는 <br>
+                  여름의 순간</div>
+              </div>
+              <div class="cont-text-box" data-aos="fade-up" data-aos-duration="2000">
+                <div class="cont-text"><b>SWEET SUMMER MOMENTS</b></div>
+                <div class="cont-text-info">싱그러운 과일과 부드러운 생크림이 어우러진 케이크,<br>사랑을 담아 전하고 싶은 순간을 위한 특별한 디저트까지.<br>다가오는 여름,
+                  뚜레쥬르와 함께 설레는 맛을 만나보세요!</div>
+                <div class="more-btn">
+                  <a href="product.html">
+                    메뉴더보기<i class="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="new-menu-right" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+              <div class="swiper-wrap">
+                <div class="swiper">
+                  <div class="swiper-overflow-container">
+                    <div class="swiper-container">
+                      <div class="swiper mySwiper10">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide card1">
+                            <div class="cont-gallery-list-box">
+                              <img src="images/new-menu01.png" alt="">
+                              <div class="cont-text-box">
+                                <div class="cont-text">
+                                  <div class="cont-text-inner">
+                                    <div class="cont-text-title">스트로베리 퀸</div>
+                                    <div class="cont-text-info">Strawberry Queen</div>
+                                  </div>
+                                </div>
+                                <div class="cont-text-info">
+                                  <div class="cont-text-info-wrap">
+                                    반짝이는 비즈로 감싼 부드러운 화이트시트에
+                                    상큼달콤한 딸기 꿀리를 샌드하고
+                                    신선한 생딸기를 가득 올린 생크림 맛집!
+                                    뚜레쥬르의 시그니처 케이크
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide card2">
+                            <div class="cont-gallery-list-box">
+                              <img src="images/new-menu02.png" alt="">
+                              <div class="cont-text-box">
+                                <div class="cont-text">
+                                  <div class="cont-text-inner">
+                                    <div class="cont-text-title">잔망루피 피치 롤케이크</div>
+                                    <div class="cont-text-info">Zanmang Loopy Peach Cake Roll</div>
+                                  </div>
+                                </div>
+                                <div class="cont-text-info">
+                                  <div class="cont-text-info-wrap">
+                                    부드러운 시트에 달콤한 요거트 크림 사이 사이
+                                    복숭아 잼이 조화되어 있는
+                                    잔망루피 피치 롤케이크
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide card3">
+                            <div class="cont-gallery-list-box">
+                              <img src="images/new-menu03.png" alt="">
+                              <div class="cont-text-box">
+                                <div class="cont-text">
+                                  <div class="cont-text-inner">
+                                    <div class="cont-text-title">하츄핑의 스타 플래닛</div>
+                                    <div class="cont-text-info">Hachuping's Star Planet</div>
+                                  </div>
+                                </div>
+                                <div class="cont-text-info">
+                                  <div class="cont-text-info-wrap">
+                                    초코&딸기 두 가지 맛을 즐길 수 있는 제품으로 하츄핑 AI 영상편지를 만들 수 있는 쿠폰이 동봉된 케이크
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide card4">
+                            <div class="cont-gallery-list-box">
+                              <img src="images/new-menu04.png" alt="">
+                              <div class="cont-text-box">
+                                <div class="cont-text">
+                                  <div class="cont-text-inner">
+                                    <div class="cont-text-title">부드러운 초코 쉬폰</div>
+                                    <div class="cont-text-info">fluffy chocolate chiffon cake</div>
+                                  </div>
+                                </div>
+                                <div class="cont-text-info">
+                                  <div class="cont-text-info-wrap">
+                                    달콤한 초코 가나슈와 초코 크림이
+                                    촉촉하고 폭신한 쉬폰을 만나
+                                    더욱 맛있어진 초코 쉬폰 케이크
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide card5">
+                            <div class="cont-gallery-list-box">
+                              <img src="images/new-menu05.png" alt="">
+                              <div class="cont-text-box">
+                                <div class="cont-text">
+                                  <div class="cont-text-inner">
+                                    <div class="cont-text-title">솔티드 버터 파운드</div>
+                                    <div class="cont-text-info">salted butter pound cake</div>
+                                  </div>
+                                </div>
+                                <div class="cont-text-info">
+                                  <div class="cont-text-info-wrap">
+                                    깊고 진한 풍미의 이즈니 버터에
+                                    말돈 소금을 더해 고급스러운 짭짤함과
+                                    담백한 맛을 즐길 수 있는 파운드
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- menu 메뉴 섹션 -->
+    <section class="menu">
+      <div class="inner">
+        <div class="text-box">
+          <h2 class="title">MENU</h2>
+          <p>
+            매일 갓 구운, 뚜레쥬르의<br>
+            정성 가득한 빵으로 하루를 특별하게!
+          </p>
+        </div>
+        <div class="container">
+          <div class="list">
+            <ul class="tab-menu">
+              <li class="active">
+                <button class="tab-btn active">빵</button>
+              </li>
+              <li>
+                <button class="tab-btn">케이크</button>
+              </li>
+              <li>
+                <button class="tab-btn">델리</button>
+              </li>
+              <li>
+                <button class="tab-btn">음료</button>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-wrap">
+            <div class="select-menu">
+              <div class="thumb">
+                <span class="mark"></span>
+                <img src="">
+              </div>
+              <div class="menu-text">
+                <p class="menu-name">피스타치오 블랙번</p>
+                <p class="menu-info">
+                  부드러운 빵 속에 피스타치오 생크림을 더하고
+                  달콤 바삭한 초콜릿 코팅이 더해져
+                  간식으로 즐기기 좋은 크림번
+                </p>
+              </div>
+            </div>
+            <div class="menu-list active">
+              <div class="swiper mySwiper01">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="1" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img00.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="2" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="3" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="4" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="5" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="6" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="7" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="8" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="9" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper mySwiper02" dir="rtl">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="1" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img00.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="2" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="3" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="4" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="5" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="6" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="7" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="8" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="9" class="menu-select-btn">
+                      <img src="images/menuImg/menu-img08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="more-btn" onclick="location.href='product.html'">메뉴 더보기 +</button>
+            </div>
+            <div class="menu-list">
+              <div class="swiper mySwiper03">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="100" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="101" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="102" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="103" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="104" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="105" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="106" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="107" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper mySwiper04" dir="rtl">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="100" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="101" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="102" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="103" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="104" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="105" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="106" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="107" class="menu-select-btn">
+                      <img src="images/menuImg/menu-cake08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="more-btn">메뉴 더보기 +</button>
+            </div>
+            <div class="menu-list">
+              <div class="swiper mySwiper05">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="200" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="201" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="202" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="203" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="204" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="205" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="206" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="207" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper mySwiper06" dir="rtl">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="200" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="201" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="202" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="203" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="204" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="205" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="206" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="207" class="menu-select-btn">
+                      <img src="images/menuImg/menu-del08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="more-btn">메뉴 더보기 +</button>
+            </div>
+            <div class="menu-list">
+              <div class="swiper mySwiper07">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="300" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="301" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="302" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="303" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="304" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="305" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="306" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="307" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper mySwiper08" dir="rtl">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <button data-number="300" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink01.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="301" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink02.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="302" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink03.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="303" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink04.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="304" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink05.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="305" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink06.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="306" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink07.png" alt="">
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button data-number="307" class="menu-select-btn">
+                      <img src="images/menuImg/menu-drink08.png" alt="">
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <button class="more-btn">메뉴 더보기 +</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- startup 창업 섹션 -->
+    <section class="startUp">
+      <div class="inner">
+        <div class="text-box">
+          <p>뚜레쥬르와 함께할 가족을 찾습니다.</p>
+          <h2>전국 1,300여 개의 가맹점이 함께 성장하고 있습니다.</h2>
+        </div>
+        <div class="partner-box">
+          <div class="box active">
+            <a href="#none" onclick="test(this)">
+              <span class="info">
+                <span>
+                  가맹문의 <span>080.376.8888</span>
+                </span>
+              </span>
+              <span class="icon">
+                <img src="images/startup/돋보기2.png" alt="gras-icon">
+              </span>
+            </a>
+            <span class="back-icon">
+              <img src="images/startup/빵식이1.gif" alt="">
+            </span>
+          </div>
+          <div class="box">
+            <a href="#none" onclick="test(this)">
+              <span class="info">
+                <span>
+                  24시간 스피드 피드백 온라인 가맹 문의
+                </span>
+              </span>
+              <span class="icon">
+                <img src="images/startup/돋보기2.png" alt="gras-icon">
+              </span>
+            </a>
+          </div>
+          <div class="box">
+            <a href="#none" onclick="test(this)">
+              <span class="info">
+                <span>
+                  5분안에 알아보는 내점포 입지 점수
+                </span>
+              </span>
+              <span class="icon">
+                <img src="images/startup/돋보기2.png" alt="gras-icon">
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SNS -->
+    <section class="sns">
+      <div class="inner">
+        <div class="sns-text">
+          <h2 class="title">SNS</h2>
+          <p class="desc">뚜레쥬르의 다양한 소식을 <br> SNS를 통해 접해보세요!</p>
+        </div>
+        <div class="sns-gallery-wrap">
+          <div class="sns-gallery g-page1">
+            <div class="g-pic-box"> <img src="./images/sns-card01.jpg" alt=""> </div>
+            <div class="g-pic-box"> <img src="./images/sns-card02.jpg" alt=""> </div>
+            <div class="g-pic-box"> <img src="./images/sns-card03.jpg" alt=""> </div>
+            <div class="g-pic-box"> <img src="./images/sns-card04.jpg" alt=""></div>
+          </div>
+          <div class="sns-gallery g-page2">
+            <div class="g-pic-box"> <img src="./images/sns-card05.jpg" alt=""></div>
+            <div class="g-pic-box"><img src="./images/sns-card06.jpg" alt=""> </div>
+            <div class="g-pic-box"> <img src="./images/sns-card07.jpg" alt=""></div>
+            <div class="g-pic-box"> <img src="./images/sns-card08.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="sns-toggle-btn">
+        <div class="btn-wrap">
+          <span class="text">더 보기</span>
+          <i class="fa-solid fa-chevron-down arrow"></i>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!--search-burial 매장 찾기 섹션-->
+    <section class="search-burial">
+      <div class="inner">
+        <div class="search-text">
+          <h4>Since 1997</h4>
+          <h3>뚜레쥬르, 정성과 신뢰로 만들어가는 맛있는 순간</h3>
+          <p>뚜레쥬르는 <span>매일 아침</span>,정성껏 구운 빵과 케이크로<br>여러분의 일상에 작은 행복을 선사하고 있습니다.<br>
+            <sapan class="mideadn">고객의 신뢰를 지키기 위해 변함없이 품질과 맛을 최고로 유지하며,<br>
+              <span>언제나 특별한 순간</span>을 드리기 위해 더욱 노력하고 있습니다.
+            </sapan>
+          </p>
+        </div>
+        <div class="search-box">
+          <div class="search-box-text">
+            <h4>매장찾기</h4>
+            <p>뚜레쥬르 위치안내 입니다</p>
+          </div>
+          <div class="search-box-test">
+            <input type="text" placeholder=" 찾으시는 지역 또는 매장명을 입력해주세요" class="search-box-search"><i
+              class="fa-solid fa-magnifying-glass"></i>
+            <br>
+          </div>
+          <button class="search-button">매장 검색하기</button>
+        </div>
+      </div>
+      <div class="creami">
+        <img src="images/creami-img.png" alt="creami">
+      </div>
+      <div class="bbangsik">
+        <img src="images/bbangsik-img.png" alt="creami">
+      </div>
+      <div class="ring">
+        <img src="images/ring.png" alt="ring">
+      </div>
+    </section>
+    <!-- mini_sub_menu -->
+    <div class="sub-mini-menu">
+      <div class="sub-mini-menu-wrap">
+        <ul>
+          <li><a href="#">
+              <i class="fa-solid fa-chevron-up"></i>
+              <p>TOP</p>
+            </a></li>
+          <li><a href="franchise.html">
+              <span class="sub-mini-menu-icon1"></span>
+              <p>가맹문의</p>
+            </a></li>
+          <li><a href="weather.html">
+              <span class="sub-mini-menu-icon2"></span>
+              <p>오늘의 빵</p>
+            </a></li>
+          <li><a href="findStore.html">
+              <span class="sub-mini-menu-icon3"></span>
+              <p>매장찾기</p>
+            </a></li>
+          <li><a href="CustomerService.html">
+              <span class="sub-mini-menu-icon4"></span>
+              <p>고객센터</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <div class="footer">
+    <div class="inner">
+      <div class="footer-top ">
+        <ul>
+          <li><a href="#none">회사소개</a></li>
+          <li><a href="#none">이용약관</a></li>
+          <li><a href="#none">위치기반서비스 이용약관</a></li>
+          <li><a href="#none">개인정보처리방침</a></li>
+          <li><a href="#none">영상정보처리기기 운영관리방침</a></li>
+          <li><a href="#none">이메일무단수집거부</a></li>
+          <li><a href="#none">윤리신고센터</a></li>
+          <li><a href="#none">법적고지</a></li>
+        </ul>
+        <div class="footer-bottom-brand mobile-brand">
+          <h3 class="mobile-call">고객센터:<span>1577-0700</span></h3>
+          <div class="footer-bottom-brand-top mobile-brand">
+            <p>제휴사</p>
+            <a href="#none"><img src="./images/footer-brand-img01.png" alt=""></a>
+            <a href="#none"><img src="./images/footer-brand-img02.png" alt=""></a>
+
+          </div>
+          <div class="footer-bottom-brand-mid
+          mobile-brand">
+            <a href="#none"><img src="./images/footer-brand-img03.png" alt=""></a>
+            <a href="#none"><img src="./images/footer-brand-img04.png" alt=""></a>
+          </div>
+          <div class="footer-bottom-brand-bottom">
+            <a href="#none"><img src="./images/footer-brand-img05.png" alt=""></a>
+            <a href="#none"><img src="./images/footer-brand-img06.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-text">
+          <p>상호명: CJ푸드빌(주)<br>
+            주소: (우)04555 서울시 중구 마른내로34(초동) 106-9번지<br> KT&G을지로타워 3,9-11층 CJ푸드빌(주)<br>
+            통신판매업종신고중 제 2011-서울중구0771호 사업자정보확인<br>
+            호스팅제공자: CJ올리브네트웍스(주)<br>
+            사업자등록번호: 312-81-42519<br>
+            대표이사: 김찬호<br>
+            개인정보보호책임자: 김재완<br>
+            대표 이메일: help_master@cj.net</p>
+          <span>COPYRIGHT 2025©CJ Foodville ALL RIGHT RESERVED.</span>
+        </div>
+        <div class="footer-bottom-brand">
+          <p>제휴사</p>
+          <div class="footer-bottom-brand-top">
+            <a href="#none"><img src="./images/footer-brand-img01.png" alt=""></a>
+            <a href="#none"><img src="./images/footer-brand-img02.png" alt=""></a>
+            <a href="#none"><img src="./images/footer-brand-img03.png" alt=""></a>
+          </div>
+          <div class="footer-bottom-brand-bottom">
+            <a href="#none"><img src="./images/footer-brand-img04.png" alt=""></a>
+            <a href="#none"><img src="./images/footer-brand-img05.png" alt=""></a>
+            <a href="#none"><img src="./images/footer-brand-img06.png" alt=""></a>
+          </div>
+         <a href="CustomerService.html"><h3>고객센터<span>바로가기</span></h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 모바일탑버튼 -->
+<button class="btn-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+  <i class="fas fa-arrow-up"></i>
+</button>
+<!-- 모바일탑버튼 스크립트 -->
+<script>
+  const topBtn = document.querySelector('.btn-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      topBtn.classList.add('show');
+    } else {
+      topBtn.classList.remove('show');
+    }
+  });
+</script>
+ 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js">
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- js -->
+  <script src="js/mainSwiper.js"></script>
+  <script src="js/object.js"></script>
+  <script src="js/menuSelect.js"></script>
+  <script src="js/style.js"></script>
+</body>
+</html>

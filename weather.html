@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 파비콘 -->
+  <link rel="icon" href="images/pavicon.jpg">
+  <title>weather</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/weather.css">
+  <!-- Weather Icons by Erik Flowers   -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+  <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+  <header class="header">
+    <!-- 서치 영역 -->
+    <div class="search-header">
+      <div class="search-wrap">
+        <form action="">
+          <input type="text" placeholder="Search">
+        </form>
+        <button class="close-btn">
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </button>
+      </div>
+    </div>
+    <!-- 메뉴 영역 -->
+    <div class="inner">
+      <div class="container">
+        <!-- nav -->
+        <nav class="nav">
+          <div class="gnb">
+            <!-- 메뉴 로고 기준 왼쪽 -->
+            <div class="gnb-left">
+              <ul class="primary-menu">
+                <li>
+                  <a href="franchise.html">창업 안내</a>
+                </li>
+                <li>
+                  <a href="brand.html">브랜드 스토리</a>
+                </li>
+                <li>
+                  <a href="#none">상품 안내</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="product.html">전체</a>
+                      </li>
+                      <li>
+                        <a href="#none">빵</a>
+                      </li>
+                      <li>
+                        <a href="#none">케이크</a>
+                      </li>
+                      <li>
+                        <a href="#none">델리</a>
+                      </li>
+                      <li>
+                        <a href="#none">디저트/스낵</a>
+                      </li>
+                      <li>
+                        <a href="#none">음료</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#none">이벤트</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#none">진행중인 이벤트</a>
+                      </li>
+                      <li>
+                        <a href="#none">이벤트 당첨자</a>
+                      </li>
+                      <li>
+                        <a href="#none">CJ ONE 멤버쉽</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <a href="index.html" id="logo">
+              <img src="images/brand-logo-white.png" alt="logo-white">
+              <img src="images/brand-logo.png" alt="logo-main-color">
+            </a>
+            <!-- 메뉴 오른쪽 -->
+            <div class="gnb-right">
+              <ul class="primary-menu">
+                <li>
+                  <a href="findStore.html">매장 찾기</a>
+                </li>
+                <li>
+                  <a href="#none">온라인 쇼핑몰</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#none">뚜레쥬르 앱</a>
+                      </li>
+                      <li>
+                        <a href="#none">홈페이지 전용 예약 발송</a>
+                      </li>
+                      <li>
+                        <a href="#none">꽃 케이크 택배배송</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#none">Login</a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="fa-solid fa-magnifying-glass fa-lg reading-glasses"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="moblie-sec-wrap">
+          <button class="hamburger">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </button>
+          <a href="index.html" id="logo">
+            <img src="images/brand-logo-white.png" alt="logo-white">
+            <img src="images/brand-logo.png" alt="logo-main-color">
+          </a>
+          <button class="reading-glasses">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--모바일 메뉴-->
+    <div class="mobile-nav">
+      <div class="mobile-nav-wrap">
+        <div class="top-wrap">
+          <button class="hamburger-close">
+            <i class="fa-solid fa-xmark fa-xl"></i>
+          </button>
+          <a href="#none">Login</a>
+        </div>
+        <ul class="primary-menu">
+          <li>
+            <a href="franchise.html">창업 안내</a>
+          </li>
+          <li>
+            <a href="brand.html">브랜드 스토리</a>
+          </li>
+          <li>
+            <a href="product.html" class="accodion-btn">상품 안내</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="product.html">전체</a>
+                </li>
+                <li>
+                  <a href="#none">빵</a>
+                </li>
+                <li>
+                  <a href="#none">케이크</a>
+                </li>
+                <li>
+                  <a href="#none">델리</a>
+                </li>
+                <li>
+                  <a href="#none">디저트/스낵</a>
+                </li>
+                <li>
+                  <a href="#none">음료</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#none" class="accodion-btn">이벤트</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="#none">진행중인 이벤트</a>
+                </li>
+                <li>
+                  <a href="#none">이벤트 당첨자</a>
+                </li>
+                <li>
+                  <a href="#none">CJ ONE 멤버쉽</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="findStore.html">매장 찾기</a>
+          </li>
+          <li>
+            <a href="#none" class="accodion-btn">온라인 쇼핑몰</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="#none">뚜레쥬르 앱</a>
+                </li>
+                <li>
+                  <a href="#none">홈페이지 전용 예약 발송</a>
+                </li>
+                <li>
+                  <a href="#none">꽃 케이크 택배배송</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="sns_list">
+          <p>Follow Us</p>
+          <div class="sns_wrap">
+            <div>
+              <a href="#none">
+                <img src="images/facebook.png" alt="facebook-icon">
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <img src="images/twitter.png" alt="twitter-icon">
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <img src="images/instargram.png" alt="instargram-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- mini_sub_menu -->
+    <div class="sub-mini-menu">
+      <div class="sub-mini-menu-wrap">
+        <ul>
+          <li><a href="#">
+              <i class="fa-solid fa-chevron-up"></i>
+              <p>TOP</p>
+            </a></li>
+          <li><a href="franchise.html">
+              <span class="sub-mini-menu-icon1"></span>
+              <p>가맹문의</p>
+            </a></li>
+          <li><a href="weather.html">
+              <span class="sub-mini-menu-icon2"></span>
+              <p>오늘의 빵</p>
+            </a></li>
+          <li><a href="findStore.html">
+              <span class="sub-mini-menu-icon3"></span>
+              <p>매장찾기</p>
+            </a></li>
+          <li><a href="CustomerService.html">
+              <span class="sub-mini-menu-icon4"></span>
+              <p>고객센터</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+<section> 
+<!-- brand-top -->
+<div class="brand-top">
+  <img src="images/brand-top.png" alt="">
+</div>
+<!--inner -->
+ 
+<div class="inner">
+  <!-- 왼쪽카드 -->
+ <div class="w-card left">
+  <div class="w-card-left-top">
+    <div class="left-top-desc">
+      <h2>오늘의 날씨는?</h2>
+      <span>언제먹어도 맛있는 뚜레쥬르! <br>
+        빵식이와 크림이가 날씨와<br>
+        어울리는 빵을 추천해드릴게요</span>
+      <div class="weather-btn">
+        <a href="product.html"></a>
+        <span>더 많은 메뉴 <br> 보러가기</span>
+        <i class="fa-solid fa-bread-slice"></i>
+
+      </div>
+    </div>
+    <div class="left-top-img">
+      <img src="images/빵식이3.gif" alt="">
+    </div>
+  </div>
+  <div class="w-card-left-bg"></div>
+  <div class="w-card-left-bottom">
+    <div class="left-bottom-menu">
+      <img src="images/menuImg/menu-img00.png" alt="대표 메뉴 이미지">
+    </div>
+    <div class="left-bottom-desc">
+      <div class="left-bottom-menu-info">
+        <h3 class="menu-title">크림치즈 베이글</h3>
+        <p class="menu-desc">쫄깃한 베이글에 고소한 크림치즈가 듬뿍!</p>
+      </div>
+      <div class="left-bottom-menu-list">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/menuImg/menu-img00.png" alt="빵1"
+                 data-title="사르르 미니 리본파이" data-desc="한 입에 쏙! 넣어 달콤하게 즐기는 버터 풍미 가득한 사르르 리본파이"
+                 data-image="images/menuImg/menu-img00.png"
+              ></div>
+            <div class="swiper-slide"><img src="images/menuImg/menu-img01.png" alt="빵2"
+                 data-title="2배 더 진해진 순진우유 식빵" data-desc="2배 더 진해진 우유 함량과 순우유 탕종으로 보들보들한 빵결 속에 진한 우유의 고소한 풍미를 가득 담은 우유 식빵"
+                 data-image="images/menuImg/menu-img01.png"
+              ></div>
+            <div class="swiper-slide"><img src="images/menuImg/menu-img02.png" alt="빵3"
+                 data-title="카라멜피칸 소보로프" data-desc="돌돌 말려있는 로프 모양의 바삭한 패스트리에 달콤한 카라멜과 고소한 피칸과 호두, 쿠키소보로를 더한 간식형 패스트리"
+                 data-image="images/menuImg/menu-img02.png"
+              ></div>
+            <div class="swiper-slide"><img src="images/menuImg/menu-img03.png" alt="빵4"
+                 data-title="프랑스 바게트" data-desc="프랑스산 밀가루가 들어가 겉은 더 바삭하고 속은 더 촉촉한, 구수한 맛의 정통 바게트"
+                 data-image="images/menuImg/menu-img03.png"
+              ></div>
+            <div class="swiper-slide"><img src="images/menuImg/menu-img04.png" alt="빵5"
+                 data-title="바삭 마늘빵" data-desc="마늘의 향긋함과 버터의 고소한 맛을 그대로 담은 바삭한 식감의 마늘 바게트"
+                 data-image="images/menuImg/menu-img04.png"
+              ></div>
+            <div class="swiper-slide"><img src="images/menuImg/menu-img05.png" alt="빵6"
+                 data-title="데일리 베이글" data-desc="폭신하고 쫄깃한 기지에 담백한 플레인 베이글"
+                 data-image="images/menuImg/menu-img05.png"
+              ></div>
+            <div class="swiper-slide"><img src="images/menuImg/menu-img06.png" alt="빵7"
+                 data-title="베리베리 건강브레드" data-desc="유럽빵 고유의 담백함과 원재료 본연의 새콤, 달콤한 맛을 동시에 즐길 수 있는 유럽 건강 브레드"
+                 data-image="images/menuImg/menu-img06.png"
+              ></div>
+            <div class="swiper-slide"><img src="images/menuImg/menu-img07.png" alt="빵8"
+                 data-title="단팥빵" data-desc="달콤하고 부드러운 단팥 앙금을 듬뿍 넣어 남녀노소 좋아하는 간식빵"
+                 data-image="images/menuImg/menu-img07.png"
+              ></div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ <!-- 오른쪽카드(날씨영역 -->
+ <div class="w-card right">
+   <i class="weather-icon wi"></i>
+  <div class="city"></div>
+  <div class="temp"></div>
+  <div class="desc"></div>
+  <div class="feels"></div>
+  <div class="minmax"></div>
+  <div class="humidity"></div>
+  <div class="wind"></div>
+</div>
+</div>
+<!--bg(배경) -->
+
+<div class="bg">
+</div>
+</section>
+ 
+<div class="footer">
+  <div class="inner">
+    <div class="footer-top ">
+      <ul>
+        <li><a href="#none">회사소개</a></li>
+        <li><a href="#none">이용약관</a></li>
+        <li><a href="#none">위치기반서비스 이용약관</a></li>
+        <li><a href="#none">개인정보처리방침</a></li>
+        <li><a href="#none">영상정보처리기기 운영관리방침</a></li>
+        <li><a href="#none">이메일무단수집거부</a></li>
+        <li><a href="#none">윤리신고센터</a></li>
+        <li><a href="#none">법적고지</a></li>
+      </ul>
+      <div class="footer-bottom-brand mobile-brand">
+        <h3 class="mobile-call">고객센터:<span>1577-0700</span></h3>
+        <div class="footer-bottom-brand-top mobile-brand">
+          <p>제휴사</p>
+          <a href="#none"><img src="./images/footer-brand-img01.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img02.png" alt=""></a>
+
+        </div>
+        <div class="footer-bottom-brand-mid
+        mobile-brand">
+          <a href="#none"><img src="./images/footer-brand-img03.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img04.png" alt=""></a>
+        </div>
+        <div class="footer-bottom-brand-bottom">
+          <a href="#none"><img src="./images/footer-brand-img05.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img06.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-text">
+        <p>상호명: CJ푸드빌(주)<br>
+          주소: (우)04555 서울시 중구 마른내로34(초동) 106-9번지<br> KT&G을지로타워 3,9-11층 CJ푸드빌(주)<br>
+          통신판매업종신고중 제 2011-서울중구0771호 사업자정보확인<br>
+          호스팅제공자: CJ올리브네트웍스(주)<br>
+          사업자등록번호: 312-81-42519<br>
+          대표이사: 김찬호<br>
+          개인정보보호책임자: 김재완<br>
+          대표 이메일: help_master@cj.net</p>
+        <span>COPYRIGHT 2025©CJ Foodville ALL RIGHT RESERVED.</span>
+      </div>
+      <div class="footer-bottom-brand">
+        <p>제휴사</p>
+        <div class="footer-bottom-brand-top">
+          <a href="#none"><img src="./images/footer-brand-img01.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img02.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img03.png" alt=""></a>
+        </div>
+        <div class="footer-bottom-brand-bottom">
+          <a href="#none"><img src="./images/footer-brand-img04.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img05.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img06.png" alt=""></a>
+        </div>
+       <a href="CustomerService.html"><h3>고객센터<span>바로가기</span></h3></a>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- 모바일탑버튼 -->
+<button class="btn-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+  <i class="fas fa-arrow-up"></i>
+</button>
+<!-- 모바일탑버튼 스크립트 -->
+<script>
+  const topBtn = document.querySelector('.btn-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      topBtn.classList.add('show');
+    } else {
+      topBtn.classList.remove('show');
+    }
+  });
+</script>
+<!-- js -->
+<script src="js/weather.js"></script>
+<script src="js/style.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

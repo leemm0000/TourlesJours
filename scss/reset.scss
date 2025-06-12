@@ -1,0 +1,70 @@
+/* G마켓 산스 */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 잘난체 */
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 폰트 어썸 CDN */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+*{
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+  font-size: $normal-font-size;
+}
+html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,menu,nav,section,article,aside,
+dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {
+    margin:0;
+    padding:0;
+}
+body{
+  font-family: $normal-font;
+  color: $main-font-color;
+  font-style: normal;
+  font-weight: normal;
+}
+a{
+  color: $main-font-color;
+  text-decoration: none;
+  font-weight: normal;
+}
+ul, ol, li{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+input{
+  outline: none;
+  border: none;
+}
+.inner{
+  width: 1320px;
+  margin: auto;
+}
+.title{
+  font-size: $title-font-size;
+  font-family: $accent-font;
+  color: $main-color;
+}
+section{
+  padding: 3rem;
+  margin-bottom: 100px;
+}
+html{
+  scroll-behavior: smooth;
+}
+.att{
+  width: 300px; 
+  height: 100px;
+  background: url(../images/주목.gif);
+}

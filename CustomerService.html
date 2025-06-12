@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CustomerService</title>
+  
+  <!-- 파비콘 -->
+  <link rel="icon" href="images/pavicon.jpg">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/Customer.css">
+
+  <!-- 외부 라이브러리 -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css" integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ==" crossorigin="anonymous" />
+</head>
+
+<body>
+
+<!-- ========== Header ========== -->
+<header class="header">
+  <!-- 서치 영역 -->
+  <div class="search-header">
+    <div class="search-wrap">
+      <form action="">
+        <input type="text" placeholder="Search">
+      </form>
+      <button class="close-btn">
+        <i class="fa-solid fa-xmark fa-xl"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- 메뉴 영역 -->
+  <div class="inner">
+    <div class="container">
+      <nav class="nav">
+        <div class="gnb">
+          <!-- 좌측 메뉴 -->
+          <div class="gnb-left">
+            <ul class="primary-menu">
+              <li><a href="franchise.html">창업 안내</a></li>
+              <li><a href="brand.html">브랜드 스토리</a></li>
+              <li>
+                <a href="#none">상품 안내</a>
+                <div class="mega-menu">
+                  <ul class="sub-menu">
+                    <li><a href="product.html">전체</a></li>
+                    <li><a href="#none">빵</a></li>
+                    <li><a href="#none">케이크</a></li>
+                    <li><a href="#none">델리</a></li>
+                    <li><a href="#none">디저트/스낵</a></li>
+                    <li><a href="#none">음료</a></li>
+                  </ul>
+                  <a href="#none"><img src="images/test-img.png" alt="sub_menu-img"></a>
+                </div>
+              </li>
+              <li>
+                <a href="#none">이벤트</a>
+                <div class="mega-menu">
+                  <ul class="sub-menu">
+                    <li><a href="#none">진행중인 이벤트</a></li>
+                    <li><a href="#none">이벤트 당첨자</a></li>
+                    <li><a href="#none">CJ ONE 멤버쉽</a></li>
+                  </ul>
+                  <a href="#none"><img src="images/test-img.png" alt="sub_menu-img"></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 로고 -->
+          <a href="index.html" id="logo">
+            <img src="images/brand-logo-white.png" alt="logo-white">
+            <img src="images/brand-logo.png" alt="logo-main-color">
+          </a>
+
+          <!-- 우측 메뉴 -->
+          <div class="gnb-right">
+            <ul class="primary-menu">
+              <li><a href="findStore.html">매장 찾기</a></li>
+              <li>
+                <a href="#none">온라인 쇼핑몰</a>
+                <div class="mega-menu">
+                  <ul class="sub-menu">
+                    <li><a href="#none">뚜레쥬르 앱</a></li>
+                    <li><a href="#none">홈페이지 전용 예약 발송</a></li>
+                    <li><a href="#none">꽃 케이크 택배배송</a></li>
+                  </ul>
+                  <a href="#none"><img src="images/test-img.png" alt="sub_menu-img"></a>
+                </div>
+              </li>
+              <li><a href="#none">Login</a></li>
+              <li><a href="#none"><i class="fa-solid fa-magnifying-glass fa-lg reading-glasses"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- 모바일 메뉴 버튼 -->
+      <div class="moblie-sec-wrap">
+        <button class="hamburger"><i class="fa-solid fa-bars fa-xl"></i></button>
+        <a href="index.html" id="logo">
+          <img src="images/brand-logo-white.png" alt="logo-white">
+          <img src="images/brand-logo.png" alt="logo-main-color">
+        </a>
+        <button class="reading-glasses"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모바일 내비게이션 -->
+  <div class="mobile-nav">
+    <div class="mobile-nav-wrap">
+      <div class="top-wrap">
+        <button class="hamburger-close"><i class="fa-solid fa-xmark fa-xl"></i></button>
+        <a href="#none">Login</a>
+      </div>
+      <ul class="primary-menu">
+        <li><a href="franchise.html">창업 안내</a></li>
+        <li><a href="brand.html">브랜드 스토리</a></li>
+        <li>
+          <a href="product.html" class="accodion-btn">상품 안내</a>
+          <div class="mega-menu">
+            <ul class="sub-menu">
+              <li><a href="product.html">전체</a></li>
+              <li><a href="#none">빵</a></li>
+              <li><a href="#none">케이크</a></li>
+              <li><a href="#none">델리</a></li>
+              <li><a href="#none">디저트/스낵</a></li>
+              <li><a href="#none">음료</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#none" class="accodion-btn">이벤트</a>
+          <div class="mega-menu">
+            <ul class="sub-menu">
+              <li><a href="#none">진행중인 이벤트</a></li>
+              <li><a href="#none">이벤트 당첨자</a></li>
+              <li><a href="#none">CJ ONE 멤버쉽</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="findStore.html">매장 찾기</a></li>
+        <li>
+          <a href="#none" class="accodion-btn">온라인 쇼핑몰</a>
+          <div class="mega-menu">
+            <ul class="sub-menu">
+              <li><a href="#none">뚜레쥬르 앱</a></li>
+              <li><a href="#none">홈페이지 전용 예약 발송</a></li>
+              <li><a href="#none">꽃 케이크 택배배송</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+      <!-- SNS 아이콘 -->
+      <div class="sns_list">
+        <p>Follow Us</p>
+        <div class="sns_wrap">
+          <div><a href="#none"><img src="images/facebook.png" alt="facebook-icon"></a></div>
+          <div><a href="#none"><img src="images/twitter.png" alt="twitter-icon"></a></div>
+          <div><a href="#none"><img src="images/instargram.png" alt="instargram-icon"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ========== Main ========== -->
+<div class="inner">
+  <div class="c-s-main-wrap">
+    <div class="c-s-main-text">
+      <h1>고객 상담안내</h1>
+      <p>뚜레쥬르를 이용하시면서 문의사항이 있으시면 말씀해 주세요.<br>
+      더 나은 서비스를 제공하기 위해 노력하겠으며, 최선을 다해 답변 드리겠습니다.<br>
+      문의하신 내용에 대한 답변은 요청 시 등록하신 E-Mail로 발송되며,<br>
+      “온라인 상담 내역”을 통해 확인 가능합니다.</p>
+        <h5>고객센터 운영안내</h5>
+        <h3>9시~12시, 13시 ~ 18시 (주말,공휴일 제외)</h3>
+     
+    </div>
+    <div class="c-s-mian-img">
+      <img src="images/CustomerService/c-s-main-img.png" alt="">
+    </div>
+  </div>
+
+  <div class="c-s-icon-warp">
+    <div class="c-s-icon"><p>FAQ</p><img src="images/CustomerService/c-s-icon-img.png" alt=""><br><button>바로가기</button></div>
+    <div class="c-s-icon"><p>문의하기</p><img src="images/CustomerService/c-s-icon2-img.png" alt=""><br><button>바로가기</button></div>
+    <div class="c-s-icon"><p>나의문의내역</p><img src="images/CustomerService/c-s-icon-img.png" alt=""><br><button>바로가기</button></div>
+  </div>
+
+  <div class="c-s-bottom-text">
+    <h2>접수안내</h2>
+    <ul>
+      <li>로그인 후 1시간 경과 시 고객님의 개인정보 보호를 위해 자동 로그아웃 됩니다.</li>
+      <li>욕설, 광고, 타인의 명예를 훼손하는 자료 등을 올리시거나<br>반복적으로 비난성 글을 올리시는 회원님의 게시물은 별도 통보 없이 임의 삭제되거나, 답변드리지 않을 수 있습니다.</li>
+      <li>매장과 관련된 내용의 경우, 해당 가맹점에 작성자의 개인정보를 전달할 수 있습니다.</li>
+      <li>접수해 주신 내용은 공정거래위원회 고시 소비자 분쟁 해결기준에 의거하여 처리됩니다.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ========== Footer ========== -->
+<div class="footer">
+  <div class="inner">
+    <div class="footer-top">
+      <ul>
+        <li><a href="#none">회사소개</a></li>
+        <li><a href="#none">이용약관</a></li>
+        <li><a href="#none">위치기반서비스 이용약관</a></li>
+        <li><a href="#none">개인정보처리방침</a></li>
+        <li><a href="#none">영상정보처리기기 운영관리방침</a></li>
+        <li><a href="#none">이메일무단수집거부</a></li>
+        <li><a href="#none">윤리신고센터</a></li>
+        <li><a href="#none">법적고지</a></li>
+      </ul>
+
+      <div class="footer-bottom-brand mobile-brand">
+        <h3 class="mobile-call">고객센터:<span>1577-0700</span></h3>
+        <div class="footer-bottom-brand-top mobile-brand">
+          <p>제휴사</p>
+          <a href="#none"><img src="./images/footer-brand-img01.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img02.png" alt=""></a>
+        </div>
+        <div class="footer-bottom-brand-mid mobile-brand">
+          <a href="#none"><img src="./images/footer-brand-img03.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img04.png" alt=""></a>
+        </div>
+        <div class="footer-bottom-brand-bottom">
+          <a href="#none"><img src="./images/footer-brand-img05.png" alt=""></a>
+          <a href="#none"><img src="./images/footer-brand-img06.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-bottom-text">
+        <p>
+          상호명: CJ푸드빌(주)<br>
+          주소: (우)04555 서울시 중구 마른내로34(초동) 106-9번지 KT&G을지로타워 3,9-11층 CJ푸드빌(주)<br>
+          통신판매업종신고중 제 2011-서울중구0771호 사업자정보확인<br>
+          호스팅제공자: CJ올리브네트웍스(주)<br>
+          사업자등록번호: 312-81-42519<br>
+          대표이사: 김찬호<br>
+          개인정보보호책임자: 김재완<br>
+          대표 이메일: help_master@cj.net
+        </p>
+        <span>COPYRIGHT 2025©CJ Foodville ALL RIGHT RESERVED.</span>
+      </div>
+
+      <div class="footer-bottom-brand">
+        <p>제휴사</p>
+        <div class="footer-bottom-brand-top">
+          <a href="#none"><img src="images/subPage_startup/footer-brand-img01.png" alt=""></a>
+          <a href="#none"><img src="images/subPage_startup/footer-brand-img02.png" alt=""></a>
+          <a href="#none"><img src="images/subPage_startup/footer-brand-img03.png" alt=""></a>
+        </div>
+        <div class="footer-bottom-brand-bottom">
+          <a href="#none"><img src="images/subPage_startup/footer-brand-img04.png" alt=""></a>
+          <a href="#none"><img src="images/subPage_startup/footer-brand-img05.png" alt=""></a>
+          <a href="#none"><img src="images/subPage_startup/footer-brand-img06.png" alt=""></a>
+        </div>
+        <a href="CustomerService.html"><h3>고객센터<span>바로가기</span></h3></a>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- 모바일탑버튼 -->
+<button class="btn-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+  <i class="fas fa-arrow-up"></i>
+</button>
+<!-- 모바일탑버튼 스크립트 -->
+<script>
+  const topBtn = document.querySelector('.btn-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+      topBtn.classList.add('show');
+    } else {
+      topBtn.classList.remove('show');
+    }
+  });
+</script>
+<!-- ========== Script ========== -->
+<script src="/js/style.js"></script>
+</body>
+</html>

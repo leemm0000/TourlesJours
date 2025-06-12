@@ -1,0 +1,476 @@
+@charset "UTF-8";
+/* G마켓 산스 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 잘난체 */
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 폰트 어썸 CDN */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, div, p, blockquote, pre, code, address, ul, ol, li, menu, nav, section, article, aside,
+dl, dt, dd, table, thead, tbody, tfoot, label, caption, th, td, form, fieldset, legend, hr, input, button, textarea, object, figure, figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "GmarketSansMedium";
+  color: #1c1c1c;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  color: #1c1c1c;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.inner {
+  width: 1320px;
+  margin: auto;
+}
+
+.title {
+  font-size: 60px;
+  font-family: "yg-jalnan";
+  color: #1A4A31;
+}
+
+section {
+  padding: 3rem;
+  margin-bottom: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.att {
+  width: 300px;
+  height: 100px;
+  background: url(../images/주목.gif);
+}
+
+section {
+  padding: 0;
+}
+section .brand-top {
+  height: 250px;
+  margin-top: 90px;
+  width: 100%;
+}
+section .brand-top img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .inner {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+}
+section .inner .w-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 50px;
+  height: auto;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 5px 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+section .inner .w-card.left {
+  position: relative;
+  bottom: 80px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background: #FFFADD;
+}
+section .inner .w-card.left .w-card-left-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc {
+  width: 80%;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc h2 {
+  width: 100%;
+  font-size: 45px;
+  font-weight: bold;
+  color: #1A4A31;
+  margin-bottom: 10px;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc span {
+  font-size: 18px;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 25px;
+  border-radius: 50px;
+  background-color: #1A4A31;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn:hover {
+  background: #FFCB4E;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn:hover span, section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn:hover i {
+  color: #1A4A31;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn a {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: auto; /* 꼭 필요 */
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn span {
+  color: #fff;
+  line-height: 1;
+}
+section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn i {
+  color: #fff;
+  font-size: 40px;
+}
+section .inner .w-card.left .w-card-left-top .left-top-img {
+  width: 50%;
+}
+section .inner .w-card.left .w-card-left-top .left-top-img img {
+  width: 100%;
+}
+section .inner .w-card.left .w-card-left-bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60%; /* 절반보다 조금 작은 높이 */
+  background: #FFE5A6; /* 원하는 배경색 */
+  z-index: -5; /* 다른 콘텐츠보다 뒤에 오게 */
+  border-radius: 50px 50px 0 0;
+}
+section .inner .w-card.left .w-card-left-bottom {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-menu {
+  padding: 40px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+  background: #fff;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-menu img {
+  width: 100%;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc {
+  padding: 30px;
+  width: 60%;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-info {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-info h3 {
+  color: #1A4A31;
+  font-size: 20px;
+  font-weight: bold;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-info p {
+  width: 100%;
+  font-size: 15px;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-list {
+  width: 100%;
+  overflow: hidden;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-list .swiper {
+  width: 100%;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-list .swiper .swiper-wrapper {
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-list .swiper .swiper-wrapper .swiper-slide {
+  cursor: pointer;
+  width: 100%;
+  height: 120px;
+  max-width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+  background: #fff;
+}
+section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-list .swiper .swiper-wrapper .swiper-slide img {
+  height: 100%;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  padding: 10px;
+}
+section .inner .w-card.right {
+  background: #FFFCF6;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 10px;
+}
+section .inner .w-card.right .city {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1A4A31;
+  margin-top: 5px;
+}
+section .inner .w-card.right .temp {
+  font-size: 42px;
+  font-weight: 700;
+  color: #FFCB4E;
+}
+section .inner .w-card.right .weather-icon {
+  font-size: 80px;
+  color: #1A4A31;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+          animation: bounce 2s infinite ease-in-out;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+}
+section .inner .w-card.right .desc {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+}
+section .inner .w-card.right .feels,
+section .inner .w-card.right .minmax,
+section .inner .w-card.right .humidity,
+section .inner .w-card.right .wind {
+  font-size: 14px;
+  color: #555;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 6px 12px;
+  border-radius: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2px auto;
+  -webkit-box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.05);
+}
+section .bg {
+  position: fixed;
+  bottom: -400px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/brand-bg.png) no-repeat center center;
+  background-size: contain;
+  z-index: -1;
+}
+
+/* 반응형 */
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  section .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
+  section .inner .w-card {
+    width: 100%;
+  }
+  section .inner .w-card.left {
+    border-radius: 20px 20px 0 0;
+    bottom: 0;
+  }
+  section .inner .w-card.left .w-card-left-top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .inner .w-card.left .w-card-left-top .left-top-desc {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .inner .w-card.left .w-card-left-top .left-top-desc h2 {
+    font-size: 30px;
+  }
+  section .inner .w-card.left .w-card-left-top .left-top-desc span {
+    font-size: 16px;
+  }
+  section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section .inner .w-card.left .w-card-left-top .left-top-desc .weather-btn span {
+    text-align: left;
+  }
+  section .inner .w-card.left .w-card-left-top .left-top-img {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  section .inner .w-card.left .w-card-left-bg {
+    display: none;
+  }
+  section .inner .w-card.left .w-card-left-bottom .left-bottom-menu {
+    display: none;
+  }
+  section .inner .w-card.left .w-card-left-bottom .left-bottom-desc {
+    width: 100%;
+  }
+  section .inner .w-card.left .w-card-left-bottom .left-bottom-desc .left-bottom-menu-info {
+    display: none;
+  }
+  section .inner .w-card.right {
+    border-radius: 20px 20px 0 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  section .bg {
+    display: none;
+  }
+}

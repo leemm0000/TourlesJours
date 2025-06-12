@@ -1,0 +1,349 @@
+@import "variable", "reset";
+
+ section{
+  padding: 0;
+  .brand-top{
+      height: 250px;
+    margin-top: 90px;
+    width: 100%;
+    img{width: 100%; height: 100%; object-fit: cover;}
+  }
+  .inner{
+    margin-top: 150px;
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    
+    .w-card{
+      flex: 1;
+      padding: 50px;
+      height: auto;
+      border-radius: 20px;
+      align-items: center;
+      box-shadow: 5px 10px 0 rgba(0,0,0,0.1);
+ 
+    }
+    .w-card.left{
+      position: relative;
+      bottom: 80px;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        max-width: 100%; // 카드 내에서 제한
+        overflow: hidden; // 넘치는 슬라이드 잘라내기
+       z-index: 1;
+        background: #FFFADD;
+      .w-card-left-top{
+        display: flex;
+        align-items: flex-end;
+        .left-top-desc{
+          width: 80%;
+          h2{
+            width: 100%;
+            font-size: 45px;
+            font-weight: bold;
+            color: $main-color;
+            margin-bottom: 10px;
+          }
+          span{
+            font-size: $normal-font-size;  
+          }
+          .weather-btn{
+            margin-top: 50px;
+            display: flex;
+            width: 250px;
+            justify-content: space-between;
+            align-items: center;
+            padding:  15px 25px ;
+            border-radius: 50px;
+            background-color:$main-color;
+            transition: .5s;
+            cursor: pointer;
+            &:hover{background:$sub-color;}
+            &:hover span,
+            &:hover i{color: $main-color;}
+            a{  position: absolute;
+              width: 0;
+              height: 0;
+              overflow: hidden;
+              opacity: 0;
+              pointer-events: auto; /* 꼭 필요 */}
+            span{
+              color: #fff;
+              line-height: 1;
+              
+            }
+            i{
+              color: #fff;
+              font-size: 40px;
+            }
+
+          }
+        }
+        .left-top-img{
+          width: 50%;
+          img{
+            width: 100%;
+          }
+        }
+      }
+      .w-card-left-bg{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60%; /* 절반보다 조금 작은 높이 */
+        background: #FFE5A6; /* 원하는 배경색 */
+        z-index: -5; /* 다른 콘텐츠보다 뒤에 오게 */
+        border-radius: 50px 50px 0 0;
+      }
+      .w-card-left-bottom{
+       // background: #FFE5A6;
+       // border-radius: 15px 15px 0 0;
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .left-bottom-menu{
+          padding: 40px;
+          flex-shrink: 0;  // 줄어들지 않도록
+          flex-grow: 0;    // 커지지 않도록
+          width: 250px; 
+          height: 250px; 
+          border-radius: 50px;
+          background: #fff;
+          img{
+            width: 100%;
+          }
+        }
+        .left-bottom-desc{
+          padding: 30px;
+          width: 60%;
+          .left-bottom-menu-info{
+            padding: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            h3{
+              color:$main-color ;
+              font-size: 20px;
+              font-weight: bold;
+            }
+            p{
+              width: 100%;
+              font-size:15px;
+           
+            }
+          }
+          .left-bottom-menu-list{
+            width: 100%;
+             overflow: hidden; 
+            .swiper{
+              width: 100%;
+              .swiper-wrapper{
+                transition-timing-function: linear; 
+                width: 100%;
+                display: flex;
+                .swiper-slide{
+                    cursor: pointer;
+                    width: 100%; // 적절히 작게
+                    height: 120px;
+                    max-width: 120px;
+                    display: flex;
+                    margin-right: 20px;
+                    flex-shrink: 0;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 15px;
+                    background: #fff;
+                   
+                  img{
+                   height: 100%; // 슬라이드에 맞춰 채움
+                   width: auto;  // 비율 유지
+                   object-fit: cover; // 또는 contain
+                   display: block;
+                   padding: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .w-card.right {
+      background: $background-color;
+      flex: 1;
+      text-align: center;
+      display: grid;
+      place-items: center;
+      align-content: center;
+      gap: 10px;
+      
+      .city {
+        font-size: 20px;
+        font-weight: 600;
+        color: $main-color;
+        margin-top: 5px;
+      }
+    
+      .temp {
+        font-size: 42px;
+        font-weight: 700;
+        color:$sub-color;
+      }
+    
+      .weather-icon {
+        font-size: 80px;
+        color: $main-color;
+        animation: bounce 2s infinite ease-in-out;
+      }
+      
+      // 애니메이션 정의
+      @keyframes bounce {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-6px);
+        }
+      }
+    
+      .desc {
+        font-size: 16px;
+        color: #666;
+        font-style: italic;
+      }
+    
+      .feels,
+      .minmax,
+      .humidity,
+      .wind {
+        font-size: 14px;
+        color: #555;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 6px 12px;
+        border-radius: 12px;
+        width: fit-content;
+        margin: 2px auto;
+        box-shadow: 2px 2px 0 rgba(0,0,0,0.05);
+      }
+    }
+  }
+  .bg{
+    position: fixed;        
+    bottom: -400px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/brand-bg.png) no-repeat center center;
+    background-size: contain;
+    z-index: -1;   
+
+  }
+ }
+
+
+ /* 반응형 */
+@media(max-width: 767px) {
+  section {
+    width: 100%;
+    margin-bottom: 0;
+ 
+    .brand-top {
+      img {}
+    }
+  
+    .inner {
+      flex-direction:column-reverse;
+      justify-content: center;
+      width: 100% !important;
+      margin: 0;
+      padding: 0;
+      gap: 0;
+      .w-card {
+        width: 100%;
+      }
+  
+      .w-card.left {
+        border-radius: 20px 20px 0 0;
+        bottom: 0;
+        .w-card-left-top {
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;  
+          .left-top-desc {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+    
+            h2 {
+              font-size: 30px;
+            }
+            span {
+              font-size: 16px;
+            }
+            .weather-btn {
+              align-items: center;
+              a {              }
+              span {    text-align: left;}
+              i {}
+            }
+          }
+  
+          .left-top-img {display: none;
+            width: 0; height: 0;
+            img {
+            }
+          }
+        }
+  
+        .w-card-left-bg {display: none;}
+  
+        .w-card-left-bottom {
+          .left-bottom-menu {display: none;
+            img {}
+          }
+  
+          .left-bottom-desc {
+            width: 100%;
+            .left-bottom-menu-info {
+              display: none;
+              h3 {}
+              p {}
+            }
+  
+            .left-bottom-menu-list {
+              .swiper {
+                .swiper-wrapper {
+                  .swiper-slide {
+                    img {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  
+      .w-card.right {
+        border-radius: 20px 20px 0 0;
+        box-shadow: none;
+        .city {}
+        .temp {}
+        .weather-icon {}
+        .desc {}
+        .feels {}
+        .minmax {}
+        .humidity {}
+        .wind {}
+      }
+    }
+  
+    .bg {display: none;}
+  }
+  
+ }

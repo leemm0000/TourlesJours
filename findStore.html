@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 파비콘 -->
+  <link rel="icon" href="images/pavicon.jpg">
+  <title>Document</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/findStore.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- 서치 영역 -->
+    <div class="search-header">
+      <div class="search-wrap">
+        <form action="">
+          <input type="text" placeholder="Search">
+        </form>
+        <button class="close-btn">
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </button>
+      </div>
+    </div>
+    <!-- 메뉴 영역 -->
+    <div class="inner">
+      <div class="container">
+        <!-- nav -->
+        <nav class="nav">
+          <div class="gnb">
+            <!-- 메뉴 로고 기준 왼쪽 -->
+            <div class="gnb-left">
+              <ul class="primary-menu">
+                <li>
+                  <a href="#none">창업 안내</a>
+                </li>
+                <li>
+                  <a href="brand.html">브랜드 스토리</a>
+                </li>
+                <li>
+                  <a href="#none">상품 안내</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="product.html">전체</a>
+                      </li>
+                      <li>
+                        <a href="#none">빵</a>
+                      </li>
+                      <li>
+                        <a href="#none">케이크</a>
+                      </li>
+                      <li>
+                        <a href="#none">델리</a>
+                      </li>
+                      <li>
+                        <a href="#none">디저트/스낵</a>
+                      </li>
+                      <li>
+                        <a href="#none">음료</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#none">이벤트</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#none">진행중인 이벤트</a>
+                      </li>
+                      <li>
+                        <a href="#none">이벤트 당첨자</a>
+                      </li>
+                      <li>
+                        <a href="#none">CJ ONE 멤버쉽</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <a href="index.html" id="logo">
+              <img src="images/brand-logo-white.png" alt="logo-white">
+            <img src="images/brand-logo.png" alt="logo-main-color">
+            </a>
+            <!-- 메뉴 오른쪽 -->
+            <div class="gnb-right">
+              <ul class="primary-menu">
+                <li>
+                  <a href="findStore.html">매장 찾기</a>
+                </li>
+                <li>
+                  <a href="#none">온라인 쇼핑몰</a>
+                  <!-- 서브 메뉴 -->
+                  <div class="mega-menu">
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="#none">뚜레쥬르 앱</a>
+                      </li>
+                      <li>
+                        <a href="#none">홈페이지 전용 예약 발송</a>
+                      </li>
+                      <li>
+                        <a href="#none">꽃 케이크 택배배송</a>
+                      </li>
+                    </ul>
+                    <a href="#none">
+                      <img src="images/test-img.png" alt="sub_menu-img">
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a href="#none">Login</a>
+                </li>
+                <li>
+                  <a href="#none">
+                    <i class="fa-solid fa-magnifying-glass fa-lg reading-glasses"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="moblie-sec-wrap">
+          <button class="hamburger">
+            <i class="fa-solid fa-bars fa-xl"></i>
+          </button>
+          <a href="index.html" id="logo">
+            <img src="images/brand-logo-white.png" alt="logo-white">
+            <img src="images/brand-logo.png" alt="logo-main-color">
+          </a>
+          <button class="reading-glasses">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--모바일 메뉴-->
+    <div class="mobile-nav">
+      <div class="mobile-nav-wrap">
+        <div class="top-wrap">
+          <button class="hamburger-close">
+            <i class="fa-solid fa-xmark fa-xl"></i>
+          </button>
+          <a href="#none">Login</a>
+        </div>
+        <ul class="primary-menu">
+          <li>
+            <a href="#none">창업 안내</a>
+          </li>
+          <li>
+            <a href="brand.html">브랜드 스토리</a>
+          </li>
+          <li>
+            <a href="#none" class="accodion-btn">상품 안내</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="product.html">전체</a>
+                </li>
+                <li>
+                  <a href="#none">빵</a>
+                </li>
+                <li>
+                  <a href="#none">케이크</a>
+                </li>
+                <li>
+                  <a href="#none">델리</a>
+                </li>
+                <li>
+                  <a href="#none">디저트/스낵</a>
+                </li>
+                <li>
+                  <a href="#none">음료</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#none" class="accodion-btn">이벤트</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="#none">진행중인 이벤트</a>
+                </li>
+                <li>
+                  <a href="#none">이벤트 당첨자</a>
+                </li>
+                <li>
+                  <a href="#none">CJ ONE 멤버쉽</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="findStore.html">매장 찾기</a>
+          </li>
+          <li>
+            <a href="#none" class="accodion-btn">온라인 쇼핑몰</a>
+            <!-- 서브 메뉴 -->
+            <div class="mega-menu">
+              <ul class="sub-menu">
+                <li>
+                  <a href="#none">뚜레쥬르 앱</a>
+                </li>
+                <li>
+                  <a href="#none">홈페이지 전용 예약 발송</a>
+                </li>
+                <li>
+                  <a href="#none">꽃 케이크 택배배송</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="sns_list">
+          <p>Follow Us</p>
+          <div class="sns_wrap">
+            <div>
+              <a href="#none">
+                <img src="images/facebook.png" alt="facebook-icon">
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <img src="images/twitter.png" alt="twitter-icon">
+              </a>
+            </div>
+            <div>
+              <a href="#none">
+                <img src="images/instargram.png" alt="instargram-icon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="map">
+      <div class="search-wrap">
+        <!-- 검색칸 -->
+        <div class="input-wrap">
+          <input type="text" placeholder="Search" class="search">
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass fa-lx"></i>
+          </button>
+        </div>
+        <!-- 지역 선택 -->
+        <div class="select-wrap">
+          <div class="select">
+            <div name="region" id="region">
+              <span>도/시 선택</span>
+              <ul class="region-list">
+                <li>도/시 선택</li>
+                <li>서울</li>
+                <li>대전</li>
+                <li>대구</li>
+                <li>청주</li>
+                <li>인천</li>
+                <li>부산</li>
+                <li>울산</li>
+              </ul>
+            </div>
+            <button></button>
+          </div>
+          <div class="select">
+            <div name="city" id="city">
+              <span>시/군/구 선택</span>
+              <ul class="city-list">
+                <!-- <li>시/군/구 선택</li> -->
+              </ul>
+            </div>
+            <button></button>
+          </div>
+        </div>
+        <!-- 검색 결과 -->
+        <div class="result-wrap">
+          <ul class="result-list">
+            <!-- <li>
+              <div>
+                <span class="location-icon"></span>
+                <h3 class="store-name">뚜레쥬르 포항이인</h3>
+                <p class="store-location">경북 포항시 북구 흥해읍 이인로 73 GS프레쉬 포항이인점 상가 1층</p>
+                <p class="store-call">054-262-5552</p>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <div id="map"></div>
+        <div class="info-wrap">
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- js -->
+  <script src="js/style.js"></script>
+  <script src="js/object.js"></script>
+  <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=665bfe0e4793f411f3111a050bd1b30f&libraries=services"></script>
+<script src="js/findStore.js"></script>
+</body>
+
+</html>
