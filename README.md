@@ -91,14 +91,10 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 <br><br><br><br>
 
 ### Footer
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer.jpg" width="800"/>
-</div>
+![푸터](https://github.com/user-attachments/assets/5588fd4b-3b3f-4867-abfa-81e6b4b32237)
 <br><hr>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer2.jpg" width="300"/>
- <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/footer3.jpg" width="150"/>
-</div>
+![푸터반응형](https://github.com/user-attachments/assets/05d39964-834f-450c-ac2a-44f9c1c8a51a)
+
 
 가로 너비가 1200px 이상일 때는 스크롤에 따라 화면 하단에서만 위치가 변경되도록 설정되었으며, 
 반응형 환경에서는 하단 중앙에 고정됩니다.
@@ -119,26 +115,24 @@ CJ푸드빌이 운영하는 신선한 베이커리 전문점입니다.
 ## 메인 페이지 
 <br><br>
 <div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5-%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8E%E1%85%A6.png" width="800"/>
+<img src="https://github.com/user-attachments/assets/ba07868f-c332-402b-a825-070bb24b3426"/>
 </div>
 <br><br>
 
 ### section 1 메인 비주얼
 <br><br>
 <div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A5%E1%86%AF.gif" width="800"/>
+ <img src="https://github.com/user-attachments/assets/8dca7da7-14a5-490c-a75d-f36df288ba4a"/>
 </div><br>
-인터파크 티켓의 주요 공연과 배너로 구성된 핵심 시각적 요소입니다.
-자동 슬라이드 형태로 주요 공연 정보를 한눈에 확인할 수 있도록 구성하였습니다.
-슬라이드 형태로 3개씩 배치하여 효율적인 정보 전달과 정돈된 레이아웃을 제공합니다.
-메인 비주얼에 배치된 작은 썸네일 위로 마우스를 올리면 배경 이미지가 변경되도록 구성하였습니다. 
-이를 통해 사용자가 주요 공연 정보를 직관적으로 확인할 수 있도록 시각적 효과를 강화하였습니다.
+해당 영역은 뚜레쥬르 사이트 방문자들이 가장 먼저 보게될 화면으로 뚜레쥬르의 다양한 이벤트와 신메뉴등 홍보해야 할 요소들을
+메인 화면에서 확인 할 수 있도록 큰화면으로 구성하였으며 자동스와이프 기능과 페이지네이션등을 추가하여,
+사이트 방문자들에게 정보를 전달하고 관심을 끌 수 있도록 하였습니다.  
 <br><br><br>
 
 반응형 디자인은 다음과 같이 조정하였습니다.<br>
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A5%E1%86%AF%E1%84%90%E1%85%A2%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BA.jpg" width="300"/>
- <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%87%E1%85%B5%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%A5%E1%86%AF%E1%84%86%E1%85%A9%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF.jpg" width="300"/>
+
+ ![moimg](https://github.com/user-attachments/assets/0d8f6fd8-a79c-45a2-8f16-810e97b9173f)
+
 </div>
 <br><br><br><br>
 
@@ -191,17 +185,18 @@ SNS 섹션은 4x2 그리드 레이아웃을 사용하여 이미지들을 깔끔�
 
 ### section5  매장 찾기
 <br><br>
-<div align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/interparkvip.gif" width="800"/>
-</div><br>
-인터파크 VIP 회원에게 제공되는 할인 혜택이 적용된 작품을 소개하는 섹션입니다.
-다른 섹션과의 차별화를 위해 제목에 보라색 컬러를 적용하여 시각적 구분을 강조했습니다.
-작품 제목과 가격이 표시되는 부분은 글자 수와 관계없이 레이아웃이 틀어지지 않도록 일관된 형태로 설계되었습니다.
-<br><br><br>
+
+![매장찾기](https://github.com/user-attachments/assets/17043ec9-878f-4d30-9084-f84f4d7941b4)
+
+<br><br>
+해당 섹션은 매장찾기 섹션으로 뚜레쥬르 페이지를 방문자들에게 주위의 매장을 찾아볼 수 있도록 하였습니다.
+또한 뚜레쥬르의 마스코트 이미지를 넣어 시각적인 재미를 주었으며 뚜레쥬르의 슬로건과 소비자에게 믿음을 줄 수 있는 
+멘트를 넣어 소비자에게 다가갈 수 있도록 하였습니다
+<br>
 반응형 디자인은 다음과 같이 조정하였습니다.
-<div display="flex" align="center">
-  <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/interparkvip.png" width="150"/>
- <img src="https://github.com/yoondg/interparkticket-renewal/blob/main/interparkvip2.png" width="300"/>
+<br><br><br>
+![모바일 매장찾기](https://github.com/user-attachments/assets/af145d26-e8a7-489c-b89f-e0a5c306f62d)
+
 </div>
 
 <br><br><br><br>
@@ -260,6 +255,20 @@ swiper를 사용해서 제작하였으며 메뉴를 클릭하면 중앙에 해�
 도/시 시/군/구 카테고리를 선택하면 그에 맞는 리스트가 나옵니다.  
 ![Image](https://github.com/user-attachments/assets/11bf8292-6c0d-4f94-bc67-26308334ad22)  
 메인 페이지에서 검색하고 매장찾기 버튼을 누르면 서브페이지와 연결되어 검색한 값을 표시합니다.  
+<br><br><br><br>
+
+### 서브페이지 : 창업안내  
+**뚜레쥬르 창업 안내 페이지** 
+![Image](https://github.com/user-attachments/assets/b6365ae6-f2c6-4c90-a2b9-2ad1288d5fdf)
+뚜레쥬르 예비 창업자들이 필요한 정보를 얻을 수 있도록 만들어졌으며, 
+창업에 필요한 핵심 정보가 빠르게 전달되도록 제작하였습니다.
+
+### 서브페이지 : 고객센터  
+**뚜레쥬르 고객센터 페이지** 
+![Image](https://github.com/user-attachments/assets/e498328e-344b-4710-9c33-97863451e922)
+뚜레쥬르의 고객센터 페이지로 온라인 문의를 하거나 전화문의 관련 정보를, 
+모아놓은 페이지입니다.
+
 
 ## ⚙️ 개발 환경  
 - 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>  
